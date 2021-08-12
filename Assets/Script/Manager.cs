@@ -74,13 +74,13 @@ public class Manager : MonoBehaviour
     {
         string id = "";
         int random;
-        if (index!= 0)
+        if (index == -1)
         {
-            random = index;
+            random = UnityEngine.Random.Range(0, SpriteManager.instance.Characters.Count);
         }
         else
         {
-            random = UnityEngine.Random.Range(0, SpriteManager.instance.Characters.Count);
+            random = index;
         }
         id += SpriteManager.instance.Characters[random].name + "_";
         id += he[UnityEngine.Random.Range(0, he.Length)] + "_";
@@ -123,12 +123,16 @@ public class Manager : MonoBehaviour
     IEnumerator render(int count)
     {
         int id;
-        Int32.TryParse(typeOfCharacter.text.Trim(), out id);
+        if (!Int32.TryParse(typeOfCharacter.text.Trim(), out id))
+        {
+            id = -1;
+        }
         if (count <= 0)
         {
+            ammountLoop.enabled = true;
             yield break;
         }
-        GetCharacter(Mathf.Clamp(id, 0, SpriteManager.instance.Characters.Count));
+        GetCharacter(Mathf.Clamp(id, -1, SpriteManager.instance.Characters.Count));
         TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
         count--;
         ammountLoop.text = count.ToString();
