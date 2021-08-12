@@ -115,6 +115,10 @@ public class Manager : MonoBehaviour
         //Debug.Log(ammountLoop.text);
         int count;
         Int32.TryParse(ammountLoop.text.Trim(), out count);
+        if (count==0)
+        {
+            return;
+        }
         ammountLoop.enabled = false;
         //int count = 10;
         StartCoroutine(render(count));
@@ -123,20 +127,20 @@ public class Manager : MonoBehaviour
     IEnumerator render(int count)
     {
         int id;
-        if (!Int32.TryParse(typeOfCharacter.text.Trim(), out id))
+        if (!Int32.TryParse(typeOfCharacter.text.Trim(), out id) || id >= SpriteManager.instance.Characters.Count)
         {
             id = -1;
         }
+        GetCharacter(id);
+        TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
+        count--;
+        ammountLoop.text = count.ToString();
         if (count <= 0)
         {
             ammountLoop.enabled = true;
             yield break;
         }
-        GetCharacter(Mathf.Clamp(id, -1, SpriteManager.instance.Characters.Count));
-        TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
-        count--;
-        ammountLoop.text = count.ToString();
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.25f);
         StartCoroutine(render(count));
     }
 
