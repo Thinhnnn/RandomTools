@@ -21,10 +21,6 @@ public class TakeScreenShot : MonoBehaviour
         instance = this;
         myCamera = gameObject.GetComponent<Camera>();
         StartCoroutine(setup());
-        //if (myCamera == null)
-        //{
-        //    Debug.Log("null!!!");
-        //}
     }
 
     IEnumerator setup()
