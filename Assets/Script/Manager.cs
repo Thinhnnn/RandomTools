@@ -14,9 +14,24 @@ public class Manager : MonoBehaviour
     public Image speed;
     public Image crt;
     public Image crtDmg;
+    [Space]
+
     public Image skill1;
     public Image skill2;
-    public TextMeshProUGUI id;
+    public Image skill3;
+    public Image skill4;
+    [Space]
+    public TextMeshProUGUI name1;
+    public TextMeshProUGUI name2;
+    public TextMeshProUGUI name3;
+    public TextMeshProUGUI name4;
+    [Space]
+    public TextMeshProUGUI info1;
+    public TextMeshProUGUI info2;
+    public TextMeshProUGUI info3;
+    public TextMeshProUGUI info4;
+    [Space]
+
     [SerializeField] TMP_InputField ammountLoop;
     [SerializeField] TMP_InputField typeOfCharacter;
     private FinalCharacter finalCharacter;
@@ -34,23 +49,37 @@ public class Manager : MonoBehaviour
         {
             VARIABLE.gameObject.SetActive(false);
         }
+        
         finalCharacter = new FinalCharacter(Random(id));
-        Transforms[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
-        Transforms[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
-        Transforms[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
-        Transforms[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
-        Transforms[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
-        Transforms[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
-        skill1.sprite = SpriteManager.instance.skill1[finalCharacter.s1 - 1];
-        skill2.sprite = SpriteManager.instance.skill1[finalCharacter.s2 - 1];
+        Transforms[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
+        Transforms[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
+        Transforms[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
+        Transforms[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
+        Transforms[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
+        Transforms[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
+        skill1.sprite = DataManager.instance.skill1[finalCharacter.s1 - 1];
+        skill2.sprite = DataManager.instance.skill2[finalCharacter.s2 - 1];
+        skill3.sprite = DataManager.instance.skill3[finalCharacter.s3 - 1];
+        skill4.sprite = DataManager.instance.skill4[finalCharacter.s4 - 1];
+
+        name1.text = DataManager.instance.s1[finalCharacter.s1 - 1].name;
+        name2.text = DataManager.instance.s2[finalCharacter.s2 - 1].name;
+        name3.text = DataManager.instance.s3[finalCharacter.s3 - 1].name;
+        name4.text = DataManager.instance.s4[finalCharacter.s4 - 1].name;
+        
+        info1.text = DataManager.instance.s1[finalCharacter.s1 - 1].info;
+        info2.text = DataManager.instance.s2[finalCharacter.s2 - 1].info;
+        info3.text = DataManager.instance.s3[finalCharacter.s3 - 1].info;
+        info4.text = DataManager.instance.s4[finalCharacter.s4 - 1].info;
+        
         Transforms[finalCharacter.index].gameObject.SetActive(true);
 
-        Character[finalCharacter.index].GetChild(0).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
-        Character[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
-        Character[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
-        Character[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
-        Character[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
-        Character[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = SpriteManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
+        Character[finalCharacter.index].GetChild(0).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
+        Character[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
+        Character[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
+        Character[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
+        Character[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
+        Character[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
         Character[finalCharacter.index].gameObject.SetActive(true);
         
         heal.fillAmount = (finalCharacter.heal * 10 + 200)/ 1000f;
@@ -58,7 +87,6 @@ public class Manager : MonoBehaviour
         speed.fillAmount = (finalCharacter.speed + 80) / 100f;
         crt.fillAmount = (finalCharacter.crt * 0.5f + 10) / 50f;
         crtDmg.fillAmount = (finalCharacter.crtDmg * 2.5f + 50) / 250f;
-        this.id.text = finalCharacter.id;
         /*
          * heal:    200 => 200 + 10 * 80    => 1000
          * dmg:     20 => 20 + 80           => 100
@@ -76,13 +104,13 @@ public class Manager : MonoBehaviour
         int random;
         if (index == -1)
         {
-            random = UnityEngine.Random.Range(0, SpriteManager.instance.Characters.Count);
+            random = UnityEngine.Random.Range(0, DataManager.instance.Characters.Count);
         }
         else
         {
             random = index;
         }
-        id += SpriteManager.instance.Characters[random].name + "_";
+        id += DataManager.instance.Characters[random].name + "_";
         id += he[UnityEngine.Random.Range(0, he.Length)] + "_";
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //1
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //2
@@ -90,8 +118,11 @@ public class Manager : MonoBehaviour
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //4
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //5
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //6
+        
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //1
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //2
+        id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //3
+        id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //4
         int max = UnityEngine.Random.Range(40, 81);
         int temp = UnityEngine.Random.Range(0, max);
         id += temp.ToString() + "_"; //1
@@ -127,7 +158,7 @@ public class Manager : MonoBehaviour
     IEnumerator render(int count)
     {
         int id;
-        if (!Int32.TryParse(typeOfCharacter.text.Trim(), out id) || id >= SpriteManager.instance.Characters.Count)
+        if (!Int32.TryParse(typeOfCharacter.text.Trim(), out id) || id >= DataManager.instance.Characters.Count)
         {
             id = -1;
         }
@@ -161,6 +192,8 @@ public class FinalCharacter
     public int p6;
     public int s1;
     public int s2;
+    public int s3;
+    public int s4;
     public int heal;
     public int dmg;
     public int speed;
@@ -230,10 +263,12 @@ public class FinalCharacter
         Int32.TryParse(gen[7], out p6);
         Int32.TryParse(gen[8], out s1);
         Int32.TryParse(gen[9], out s2);
-        Int32.TryParse(gen[10], out heal);
-        Int32.TryParse(gen[11], out dmg);
-        Int32.TryParse(gen[12], out speed);
-        Int32.TryParse(gen[13], out crt);
-        Int32.TryParse(gen[14], out crt);
+        Int32.TryParse(gen[10], out s3);
+        Int32.TryParse(gen[11], out s4);
+        Int32.TryParse(gen[12], out heal);
+        Int32.TryParse(gen[13], out dmg);
+        Int32.TryParse(gen[14], out speed);
+        Int32.TryParse(gen[15], out crt);
+        Int32.TryParse(gen[16], out crt);
     }
 }

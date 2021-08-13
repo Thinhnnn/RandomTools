@@ -3,21 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpriteManager : MonoBehaviour
+[Serializable]
+public class Skill
 {
-    public static SpriteManager instance;
-
-    public List<Character> Characters;
-
-    public List<Sprite> skill1;
-    public List<Sprite> skill2;
-    
-    private void Awake()
-    {
-        instance = this;
-    }
+    public string name;
+    public string info;
+    public int dmg;
 }
-
 [Serializable]
 public class Character
 {
