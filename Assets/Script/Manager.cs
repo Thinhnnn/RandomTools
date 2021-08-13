@@ -66,7 +66,7 @@ public class Manager : MonoBehaviour
          * crt:     10 => 10 + 0.5 * 80     => 50
          * crtDmg   50 => 50 + 2.5 * 80     => 250
          */
-        TakeScreenShot.TakeScreenshot_Static(1920,1080, finalCharacter.id);
+        //TakeScreenShot.TakeScreenshot_Static(1920,1080, finalCharacter.id);
     }
     private string type;
     private string[] he = new[] {"F", "W", "N", "L", "D"};
@@ -132,7 +132,7 @@ public class Manager : MonoBehaviour
             id = -1;
         }
         GetCharacter(id);
-        TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
+        //TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
         count--;
         ammountLoop.text = count.ToString();
         if (count <= 0)
@@ -203,6 +203,21 @@ public class FinalCharacter
             case "SHA":
             {
                 index = 3;
+                break;
+            }
+            case "CEN":
+            {
+                index = 4;
+                break;
+            }
+            case "HAR":
+            {
+                index = 5;
+                break;
+            }
+            case "GOB":
+            {
+                index = 6;
                 break;
             }
         }
