@@ -15,6 +15,12 @@ public class Manager : MonoBehaviour
     public Image crt;
     public Image crtDmg;
     [Space]
+    public TextMeshProUGUI TMPheal;
+    public TextMeshProUGUI TMPdmg;
+    public TextMeshProUGUI TMPspeed;
+    public TextMeshProUGUI TMPcrt;
+    public TextMeshProUGUI TMPcrd;
+    [Space]
 
     public Image skill1;
     public Image skill2;
@@ -87,6 +93,12 @@ public class Manager : MonoBehaviour
         speed.fillAmount = (finalCharacter.speed + 80) / 100f;
         crt.fillAmount = (finalCharacter.crt * 0.5f + 10) / 50f;
         crtDmg.fillAmount = (finalCharacter.crtDmg * 2.5f + 50) / 250f;
+
+        TMPheal.text = (finalCharacter.heal * 10 + 200).ToString();
+        TMPdmg.text = (finalCharacter.dmg + 80).ToString();
+        TMPspeed.text = (finalCharacter.speed + 80).ToString();
+        TMPcrt.text = (finalCharacter.crt * 0.5f + 10).ToString() + "%";
+        TMPcrd.text = (finalCharacter.crtDmg * 2.5f + 50).ToString() + "%";
         /*
          * heal:    200 => 200 + 10 * 80    => 1000
          * dmg:     20 => 20 + 80           => 100

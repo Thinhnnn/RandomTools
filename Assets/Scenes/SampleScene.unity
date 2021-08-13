@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1927,249 +1927,258 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8219a59b70658324eb8eb357c176f57a, type: 3}
   - {fileID: 21300000, guid: 27ca32c1f6077cc42bbae4a7a36f20fb, type: 3}
   s1:
-  - name: skill 1dasdsadsadsa
-    info: day la skill 1
-    dmg: 1
-  - name: dasdad
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
+  - name: Fiery Swirl
+    info: "\u0110\u1ED1t ch\xE1y trong 5 l\u01B0\u1EE3t v\xE0 gi\u1EA3m h\u1ED3i
+      m\xE1u 30%"
+    dmg: 90
+  - name: Meteor Rain
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
+      trong 4 gi\xE2y"
+    dmg: 30
+  - name: Ring Of Flame
+    info: "Th\u1ED5i ra 3 v\xF2ng l\u1EEDa g\xE2y s\xE1t th\u01B0\u01A1ng 3 l\u1EA7n"
+    dmg: 85
+  - name: Fire Balls
+    info: "G\xE2y cho\xE1ng 2 gi\xE2y"
+    dmg: 80
+  - name: Fire Blast
+    info: "G\xE2y v\u1EE5 n\u1ED5 l\u1EDBn "
+    dmg: 150
+  - name: Fire Spikes
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng 2 l\u1EA7n"
+    dmg: 200
+  - name: Triple Fire Tornado
+    info: "To\xE0n b\u1ED9 k\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n
+      c\xF4ng \u0111\u01B0\u1EE3c"
+    dmg: 60
+  - name: Fire Tornado
+    info: "K\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n c\xF4ng
+      \u0111\u01B0\u1EE3c"
+    dmg: 300
+  - name: Fire Laser
+    info: "Gi\u1EA3m h\u1ED3i m\xE1u 30%"
+    dmg: 100
+  - name: Sphere Lava
+    info: "Cho\xE1ng 1 gi\xE2y"
+    dmg: 80
+  - name: Skill 1-11
+    info: Skill number 11 of skill 1
+    dmg: 100
+  - name: Skill 1-12
+    info: Skill number 12 of skill 1
+    dmg: 100
+  - name: Skill 1-13
+    info: Skill number 13 of skill 1
+    dmg: 100
+  - name: Skill 1-14
+    info: Skill number 14 of skill 1
+    dmg: 100
+  - name: Fire Double Slash
+    info: "Ch\u1EA3y m\xE1u 4 l\u1EA7n"
+    dmg: 500
+  - name: Fire Slash
+    info: "Ch\u1EA3y m\xE1u 2 l\u1EA7n"
+    dmg: 400
+  - name: Fire Rain
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
+      trong 4 gi\xE2y"
+    dmg: 20
+  - name: Fire Wall
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i gi\xE2y trong
+      3 gi\xE2y"
+    dmg: 200
+  - name: Fire Wave
+    info: "To\xE0n b\u1ED9 m\u1EE5c ti\xEAu trong ph\u1EA1m vi \u1EA3nh h\u01B0\u1EDFng"
+    dmg: 300
+  - name: Breath Of Fire
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c 3 l\u1EA7n"
+    dmg: 150
   s2:
-  - name: dasdsad
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: dasdasdsa
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
+  - name: Blizzard
+    info: "Gi\u1EA3m t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng to\xE0n b\u1ED9 k\u1EBB
+      th\xF9 50%"
+    dmg: 90
+  - name: Cold Rain
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
+      trong 4 gi\xE2y"
+    dmg: 20
+  - name: Flying Cold
+    info: "Gi\u1EA3m t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng to\xE0n b\u1ED9 k\u1EBB
+      th\xF9 30%"
+    dmg: 180
+  - name: Cold Wirl
+    info: "B\u1ECFng b\u0103ng 5 l\u1EA7n v\xE0 gi\u1EA3m h\u1ED3i m\xE1u 30%"
+    dmg: 90
+  - name: Frost Spikes
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng 2 l\u1EA7n"
+    dmg: 200
+  - name: Frost Umbrella
+    info: Skill number 6 of skill 2
+    dmg: 100
+  - name: Ice Blast
+    info: Skill number 7 of skill 2
+    dmg: 120
+  - name: Ice Shards
+    info: Skill number 8 of skill 2
+    dmg: 110
+  - name: Ice Strike
+    info: Skill number 9 of skill 2
+    dmg: 80
+  - name: Water Jet
+    info: Skill number 10 of skill 2
+    dmg: 90
+  - name: Water Slash
+    info: Skill number 11 of skill 2
+    dmg: 70
+  - name: Water Double Slash
+    info: Skill number 12 of skill 2
+    dmg: 150
+  - name: Water Laser
+    info: Skill number 13 of skill 2
+    dmg: 200
+  - name: Ice Meteors
+    info: Skill number 14 of skill 2
+    dmg: 100
+  - name: Ice Restoration
+    info: Skill number 15 of skill 2
+    dmg: 90
+  - name: Ice Spikes
+    info: Skill number 16 of skill 2
+    dmg: 130
+  - name: Ice Tornado
+    info: Skill number 17 of skill 2
+    dmg: 300
+  - name: Triple Ice Tornado
+    info: Skill number 18 of skill 2
+    dmg: 60
+  - name: Ice Shuriken
+    info: Skill number 19 of skill 2
+    dmg: 50
+  - name: Ice Kunai
+    info: Skill number 20 of skill 2
+    dmg: 60
   s3:
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
+  - name: Runic Spikes
+    info: Skill number 1 of skill 3
+    dmg: 100
+  - name: Side Spikes
+    info: Skill number 2 of skill 3
+    dmg: 100
+  - name: Spiked Sphered
+    info: Skill number 3 of skill 3
+    dmg: 100
+  - name: Splitting the stones
+    info: Skill number 4 of skill 3
+    dmg: 100
+  - name: Stone Stun
+    info: Skill number 5 of skill 3
+    dmg: 100
+  - name: Earth Slash
+    info: Skill number 6 of skill 3
+    dmg: 100
+  - name: Earth Double Slash
+    info: Skill number 7 of skill 3
+    dmg: 100
+  - name: Natural Sphere
+    info: Skill number 8 of skill 3
+    dmg: 100
+  - name: Healing Nature
+    info: Skill number 9 of skill 3
+    dmg: 100
+  - name: Nature Laser
+    info: Skill number 10 of skill 3
+    dmg: 100
+  - name: Skill 3-11
+    info: Skill number 11 of skill 3
+    dmg: 100
+  - name: Skill 3-12
+    info: Skill number 12 of skill 3
+    dmg: 100
+  - name: Skill 3-13
+    info: Skill number 13 of skill 3
+    dmg: 100
+  - name: Skill 3-14
+    info: Skill number 14 of skill 3
+    dmg: 100
+  - name: Skill 3-15
+    info: Skill number 15 of skill 3
+    dmg: 100
+  - name: Skill 3-16
+    info: Skill number 16 of skill 3
+    dmg: 100
+  - name: Skill 3-17
+    info: Skill number 17 of skill 3
+    dmg: 100
+  - name: Skill 3-18
+    info: Skill number 18 of skill 3
+    dmg: 100
+  - name: Skill 3-19
+    info: Skill number 19 of skill 3
+    dmg: 100
+  - name: Skill 3-20
+    info: Skill number 20 of skill 3
+    dmg: 100
   s4:
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
-  - name: 
-    info: 
-    dmg: 0
+  - name: Skill 4-1
+    info: Skill number 1 of skill 4
+    dmg: 100
+  - name: Skill 4-2
+    info: Skill number 2 of skill 4
+    dmg: 100
+  - name: Skill 4-3
+    info: Skill number 3 of skill 4
+    dmg: 100
+  - name: Skill 4-4
+    info: Skill number 4 of skill 4
+    dmg: 100
+  - name: Skill 4-5
+    info: Skill number 5 of skill 4
+    dmg: 100
+  - name: Skill 4-6
+    info: Skill number 6 of skill 4
+    dmg: 100
+  - name: Skill 4-7
+    info: Skill number 7 of skill 4
+    dmg: 100
+  - name: Skill 4-8
+    info: Skill number 8 of skill 4
+    dmg: 100
+  - name: Skill 4-9
+    info: Skill number 9 of skill 4
+    dmg: 100
+  - name: Skill 4-10
+    info: Skill number 10 of skill 4
+    dmg: 100
+  - name: Skill 4-11
+    info: Skill number 11 of skill 4
+    dmg: 100
+  - name: Skill 4-12
+    info: Skill number 12 of skill 4
+    dmg: 100
+  - name: Skill 4-13
+    info: Skill number 13 of skill 4
+    dmg: 100
+  - name: Skill 4-14
+    info: Skill number 14 of skill 4
+    dmg: 100
+  - name: Skill 4-15
+    info: Skill number 15 of skill 4
+    dmg: 100
+  - name: Skill 4-16
+    info: Skill number 16 of skill 4
+    dmg: 100
+  - name: Skill 4-17
+    info: Skill number 17 of skill 4
+    dmg: 100
+  - name: Skill 4-18
+    info: Skill number 18 of skill 4
+    dmg: 100
+  - name: Skill 4-19
+    info: Skill number 19 of skill 4
+    dmg: 100
+  - name: Skill 4-20
+    info: Skill number 20 of skill 4
+    dmg: 100
 --- !u!4 &137015423
 Transform:
   m_ObjectHideFlags: 0
@@ -2217,6 +2226,11 @@ MonoBehaviour:
   speed: {fileID: 692160118}
   crt: {fileID: 1649726143}
   crtDmg: {fileID: 1687305104}
+  TMPheal: {fileID: 1536708377}
+  TMPdmg: {fileID: 2091123839}
+  TMPspeed: {fileID: 407401107}
+  TMPcrt: {fileID: 1661593210}
+  TMPcrd: {fileID: 215261541}
   skill1: {fileID: 1268098511}
   skill2: {fileID: 1456038490}
   skill3: {fileID: 948329304}
@@ -2976,8 +2990,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3774,8 +3788,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4425,8 +4439,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9953,8 +9967,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11596,8 +11610,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12696,8 +12710,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13497,8 +13511,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
