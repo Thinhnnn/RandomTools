@@ -38,6 +38,7 @@ public class Manager : MonoBehaviour
     public TextMeshProUGUI info4;
     [Space]
     public TextMeshProUGUI rateCharacter;
+    public TextMeshProUGUI TMP_ID;
     [Space]
 
     [SerializeField] TMP_InputField ammountLoop;
@@ -54,7 +55,6 @@ public class Manager : MonoBehaviour
         int[] skills = { skill1, skill2, skill3, skill4 };
         foreach(int sk in skills)
         {
-            Debug.Log(sk);
             if (sk < 3)
             {
                 rand = UnityEngine.Random.Range(20, 26);
@@ -136,6 +136,8 @@ public class Manager : MonoBehaviour
         TMPspeed.text = (finalCharacter.speed + 80).ToString();
         TMPcrt.text = (finalCharacter.crt * 0.5f + 10).ToString() + "%";
         TMPcrd.text = (finalCharacter.crtDmg * 2.5f + 50).ToString() + "%";
+
+        TMP_ID.text = "ID: " + finalCharacter.id;
         /*
          * heal:    200 => 200 + 10 * 80    => 1000
          * dmg:     20 => 20 + 80           => 100
