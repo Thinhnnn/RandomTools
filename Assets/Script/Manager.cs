@@ -54,7 +54,6 @@ public class Manager : MonoBehaviour
         int[] skills = { skill1, skill2, skill3, skill4 };
         foreach(int sk in skills)
         {
-            Debug.Log(sk);
             if (sk < 3)
             {
                 rand = UnityEngine.Random.Range(20, 26);
@@ -338,6 +337,6 @@ public class FinalCharacter
         Int32.TryParse(gen[13], out dmg);
         Int32.TryParse(gen[14], out speed);
         Int32.TryParse(gen[15], out crt);
-        Int32.TryParse(gen[16], out crt);
+        Int32.TryParse(gen[16], out crtDmg);
     }
 }
