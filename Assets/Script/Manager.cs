@@ -37,12 +37,47 @@ public class Manager : MonoBehaviour
     public TextMeshProUGUI info3;
     public TextMeshProUGUI info4;
     [Space]
+    public TextMeshProUGUI rateCharacter;
+    [Space]
 
     [SerializeField] TMP_InputField ammountLoop;
     [SerializeField] TMP_InputField typeOfCharacter;
     private FinalCharacter finalCharacter;
     private void Start()
     {
+    }
+
+    public void RateCharacter(int skill1, int skill2, int skill3, int skill4)
+    {
+        int sum = 0;
+        int rand;
+        int[] skills = { skill1, skill2, skill3, skill4 };
+        foreach(int sk in skills)
+        {
+            Debug.Log(sk);
+            if (sk < 3)
+            {
+                rand = UnityEngine.Random.Range(20, 26);
+            }
+            else if (sk < 6)
+            {
+                rand = UnityEngine.Random.Range(16, 21);
+            }
+            else if (sk < 11)
+            {
+                rand = UnityEngine.Random.Range(11, 16);
+            }
+            else if (sk < 16)
+            {
+                rand = UnityEngine.Random.Range(6, 11);
+            }
+            else
+            {
+                rand = UnityEngine.Random.Range(0, 6);
+            }
+            sum += rand;
+        }
+        rateCharacter.text = sum.ToString();
     }
 
     public void GetCharacter(int id = 0)
@@ -68,6 +103,8 @@ public class Manager : MonoBehaviour
         skill3.sprite = DataManager.instance.skill3[finalCharacter.s3 - 1];
         skill4.sprite = DataManager.instance.skill4[finalCharacter.s4 - 1];
 
+        RateCharacter(finalCharacter.s1, finalCharacter.s2, finalCharacter.s3, finalCharacter.s4);
+
         name1.text = DataManager.instance.s1[finalCharacter.s1 - 1].name;
         name2.text = DataManager.instance.s2[finalCharacter.s2 - 1].name;
         name3.text = DataManager.instance.s3[finalCharacter.s3 - 1].name;
@@ -89,9 +126,9 @@ public class Manager : MonoBehaviour
         Character[finalCharacter.index].gameObject.SetActive(true);
         
         heal.fillAmount = (finalCharacter.heal * 10 + 200)/ 1000f;
-        dmg.fillAmount = (finalCharacter.dmg + 80) / 100f;
-        speed.fillAmount = (finalCharacter.speed + 80) / 100f;
-        crt.fillAmount = (finalCharacter.crt * 0.5f + 10) / 50f;
+        dmg.fillAmount = (finalCharacter.dmg + 20) / 100f;
+        speed.fillAmount = (finalCharacter.speed + 20) / 100f;
+        crt.fillAmount = (finalCharacter.crt * 0.5f + 10) / 100f;
         crtDmg.fillAmount = (finalCharacter.crtDmg * 2.5f + 50) / 250f;
 
         TMPheal.text = (finalCharacter.heal * 10 + 200).ToString();
@@ -130,7 +167,7 @@ public class Manager : MonoBehaviour
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //4
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //5
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //6
-        
+
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //1
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //2
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //3
@@ -152,7 +189,7 @@ public class Manager : MonoBehaviour
         id += temp.ToString(); //5
         return id;
     }
-    
+
     public void doLoopRender()
     {
         //Debug.Log(ammountLoop.text);
@@ -263,6 +300,26 @@ public class FinalCharacter
             case "GOB":
             {
                 index = 6;
+                break;
+            }
+            case "WOL":
+            {
+                index = 7;
+                break;
+            }
+            case "MIN":
+            {
+                index = 8;
+                break;
+            }
+            case "TIT":
+            {
+                index = 9;
+                break;
+            }
+            case "ANG":
+            {
+                index = 10;
                 break;
             }
         }
