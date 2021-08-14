@@ -8,7 +8,8 @@ namespace _Scripts.Editor
     {
         enum Skill
         {
-            s1,s2,s3,s4
+            fire,water,light,dark, nature,
+            c1,c2,c3,c4,c5,c6,c7,c8,c9,c10
         }
 
         private Skill _skill;
@@ -24,31 +25,87 @@ namespace _Scripts.Editor
         {
             DataManager dataManager = FindObjectOfType<DataManager>();
             serializedObject = new SerializedObject(dataManager);
-            _skill = Skill.s1;
+            _skill = Skill.c1;
         }
 
         private void OnGUI()
         {
             GUILayout.BeginHorizontal(GUILayout.ExpandWidth(true));
             {
+                if (GUILayout.Button("Fire"))
+                {
+                    _skill = Skill.fire;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("Water"))
+                {
+                    _skill = Skill.water;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("Light"))
+                {
+                    _skill = Skill.light;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("Dark"))
+                {
+                    _skill = Skill.dark;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("Nature"))
+                {
+                    _skill = Skill.nature;
+                    _skillSelected = null;
+                }
+                
                 if (GUILayout.Button("List skill 1"))
                 {
-                    _skill = Skill.s1;
+                    _skill = Skill.c1;
                     _skillSelected = null;
                 }
                 if (GUILayout.Button("List skill 2"))
                 {
-                    _skill = Skill.s2;
+                    _skill = Skill.c2;
                     _skillSelected = null;
                 }
                 if (GUILayout.Button("List skill 3"))
                 {
-                    _skill = Skill.s3;
+                    _skill = Skill.c3;
                     _skillSelected = null;
                 }
                 if (GUILayout.Button("List skill 4"))
                 {
-                    _skill = Skill.s4;
+                    _skill = Skill.c4;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 5"))
+                {
+                    _skill = Skill.c5;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 6"))
+                {
+                    _skill = Skill.c6;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 7"))
+                {
+                    _skill = Skill.c7;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 8"))
+                {
+                    _skill = Skill.c8;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 9"))
+                {
+                    _skill = Skill.c9;
+                    _skillSelected = null;
+                }
+                if (GUILayout.Button("List skill 10"))
+                {
+                    _skill = Skill.c10;
                     _skillSelected = null;
                 }
             }
@@ -56,20 +113,64 @@ namespace _Scripts.Editor
             SerializedProperty skillData;
             switch (_skill)
             {
-                case Skill.s1:
-                    skillData = serializedObject.FindProperty("s1");
+                case Skill.fire:
+                    skillData = serializedObject.FindProperty("fireSkill");
                     _listRound = skillData;
                     break;
-                case Skill.s2:
-                    skillData = serializedObject.FindProperty("s2");
+                case Skill.water:
+                    skillData = serializedObject.FindProperty("waterSkill");
                     _listRound = skillData;
                     break;
-                case Skill.s3:
-                     skillData = serializedObject.FindProperty("s3");
+                case Skill.light:
+                    skillData = serializedObject.FindProperty("lightSkill");
                     _listRound = skillData;
                     break;
-                case Skill.s4:
-                    skillData = serializedObject.FindProperty("s4");
+                case Skill.dark:
+                    skillData = serializedObject.FindProperty("darkSkill");
+                    _listRound = skillData;
+                    break;
+                case Skill.nature:
+                    skillData = serializedObject.FindProperty("natureSkill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c1:
+                    skillData = serializedObject.FindProperty("c1Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c2:
+                    skillData = serializedObject.FindProperty("c2Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c3:
+                     skillData = serializedObject.FindProperty("c3Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c4:
+                    skillData = serializedObject.FindProperty("c4Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c5:
+                    skillData = serializedObject.FindProperty("c5Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c6:
+                    skillData = serializedObject.FindProperty("c6Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c7:
+                    skillData = serializedObject.FindProperty("c7Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c8:
+                    skillData = serializedObject.FindProperty("c8Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c9:
+                    skillData = serializedObject.FindProperty("c9Skill");
+                    _listRound = skillData;
+                    break;
+                case Skill.c10:
+                    skillData = serializedObject.FindProperty("c10Skill");
                     _listRound = skillData;
                     break;
             }

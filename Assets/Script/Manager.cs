@@ -92,12 +92,14 @@ public class Manager : MonoBehaviour
         }
         
         finalCharacter = new FinalCharacter(Random(id));
+        
         Transforms[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
         Transforms[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
         Transforms[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
         Transforms[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
         Transforms[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
         Transforms[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
+        
         skill1.sprite = DataManager.instance.skill1[finalCharacter.s1 - 1];
         skill2.sprite = DataManager.instance.skill2[finalCharacter.s2 - 1];
         skill3.sprite = DataManager.instance.skill3[finalCharacter.s3 - 1];
@@ -105,15 +107,15 @@ public class Manager : MonoBehaviour
 
         RateCharacter(finalCharacter.s1, finalCharacter.s2, finalCharacter.s3, finalCharacter.s4);
 
-        name1.text = DataManager.instance.s1[finalCharacter.s1 - 1].name;
-        name2.text = DataManager.instance.s2[finalCharacter.s2 - 1].name;
-        name3.text = DataManager.instance.s3[finalCharacter.s3 - 1].name;
-        name4.text = DataManager.instance.s4[finalCharacter.s4 - 1].name;
+        name1.text = DataManager.instance.mainSkill[finalCharacter.type][finalCharacter.s1 - 1].name;
+        name2.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s2 - 1].name;
+        name3.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s3 - 1].name;
+        name4.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s4 - 1].name;
         
-        info1.text = DataManager.instance.s1[finalCharacter.s1 - 1].info;
-        info2.text = DataManager.instance.s2[finalCharacter.s2 - 1].info;
-        info3.text = DataManager.instance.s3[finalCharacter.s3 - 1].info;
-        info4.text = DataManager.instance.s4[finalCharacter.s4 - 1].info;
+        info1.text = DataManager.instance.mainSkill[finalCharacter.type][finalCharacter.s1 - 1].info;
+        info2.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s2 - 1].info;
+        info3.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s3 - 1].info;
+        info4.text = DataManager.instance.skills[finalCharacter.index][finalCharacter.s4 - 1].info;
         
         Transforms[finalCharacter.index].gameObject.SetActive(true);
 
@@ -171,9 +173,28 @@ public class Manager : MonoBehaviour
         id += (UnityEngine.Random.Range(0, 5) + 1).ToString() + "_"; //6
 
         id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //1
-        id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //2
-        id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //3
-        id += (UnityEngine.Random.Range(0, 20) + 1).ToString() + "_"; //4
+        int s2 = 0;
+        int s3 = 0;
+        int s4 = 0;
+            
+        s2 = UnityEngine.Random.Range(0, 10);
+        do
+        {
+            s3 = UnityEngine.Random.Range(0, 10);
+            do
+            {
+                s4 = UnityEngine.Random.Range(0, 10);
+            } while (s3 == s4);
+            
+        } while (s2 == s3 || s2 == s4);
+
+        s2++;
+        s3++;
+        s4++;
+        
+        id += s2 + "_"; //2
+        id += s3 + "_"; //3
+        id += s4 + "_"; //4
         int max = UnityEngine.Random.Range(40, 81);
         int temp = UnityEngine.Random.Range(0, max);
         id += temp.ToString() + "_"; //1
@@ -225,7 +246,6 @@ public class Manager : MonoBehaviour
         yield return new WaitForSeconds(0.25f);
         StartCoroutine(render(count));
     }
-
 }
 
 
@@ -235,6 +255,7 @@ public class FinalCharacter
     public string character;
     public int index;
     public string he;
+    public int type;
     public int p1;
     public int p2;
     public int p3;
@@ -304,28 +325,47 @@ public class FinalCharacter
                 index = 6;
                 break;
             }
-            case "WOL":
+            // case "WOL":
+            // {
+            //     index = 7;
+            //     break;
+            // }
+            case "MIN":
             {
                 index = 7;
                 break;
             }
-            case "MIN":
+            case "TIT":
             {
                 index = 8;
                 break;
             }
-            case "TIT":
+            case "ANG":
             {
                 index = 9;
                 break;
             }
-            case "ANG":
-            {
-                index = 10;
-                break;
-            }
         }
         he = gen[1];
+        switch (he)
+        {
+            case "F":
+                type = 0;
+                break;
+            case "W":
+                type = 1;
+                break;
+            case "D":
+                type = 2;
+                break;
+            case "L":
+                type = 3;
+                break;
+            case "N":
+                type = 4;
+                break;
+
+        }
         Int32.TryParse(gen[2], out p1);
         Int32.TryParse(gen[3], out p2);
         Int32.TryParse(gen[4], out p3);
