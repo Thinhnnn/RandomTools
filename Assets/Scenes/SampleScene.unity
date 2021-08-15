@@ -2656,766 +2656,644 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 27ca32c1f6077cc42bbae4a7a36f20fb, type: 3}
   fireSkill:
   - name: Fiery Swirl
-    info: "T\u1EA1o m\u1ED9t v\xF2ng xo\xE1y l\u1EEDa l\xEAn to\xE0n b\u1ED9 k\u1EBB
-      \u0111\u1ECBch, g\xE2y 90% s\xE1t th\u01B0\u01A1ng. K\u1EBB \u0111\u1ECBch
-      b\u1ECB \u0111\u1ED1t ch\xE1y trong 5 l\u01B0\u1EE3t v\xE0 gi\u1EA3m 30% h\u1ED3i
-      m\xE1u trong su\u1ED1t th\u1EDDi gian \u0111\u1ED1t"
+    info: Burns for 5 turns and reduces healing by 30% for the duration of the burn
     dmg: 90
   - name: Meteor Rain
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
-      trong 4 gi\xE2y"
+    info: Deals continuous damage every 0.25 seconds for 4 seconds
     dmg: 0
   - name: Ring Of Flame
-    info: "Th\u1ED5i ra 3 v\xF2ng l\u1EEDa g\xE2y s\xE1t th\u01B0\u01A1ng 3 l\u1EA7n"
+    info: Blows out 3 rings of fire dealing 3 times damage
     dmg: 30
   - name: Fire Balls
-    info: "G\xE2y cho\xE1ng 2 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 85
   - name: Fire Blast
-    info: "G\xE2y v\u1EE5 n\u1ED5 l\u1EDBn "
+    info: Causing a big explosion
     dmg: 80
   - name: Fire Spikes
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng 2 l\u1EA7n"
+    info: Deal damage 2 times
     dmg: 150
   - name: Triple Fire Tornado
-    info: "To\xE0n b\u1ED9 k\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n
-      c\xF4ng \u0111\u01B0\u1EE3c trong 2 gi\xE2y"
+    info: All enemies are raised and unable to attack for 2 seconds
     dmg: 60
   - name: Fire Tornado
-    info: "K\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n c\xF4ng
-      \u0111\u01B0\u1EE3c trong 2 gi\xE2y"
+    info: Enemies are raised and unable to attack for 2 seconds
     dmg: 300
   - name: Fire Laser
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng m\u1ED7i 1 gi\xE2y v\xE0 gi\u1EA3m h\u1ED3i
-      m\xE1u 30% trong 5 gi\xE2y"
+    info: Deals damage every 1 second and reduces healing by 30% for 5 seconds
     dmg: 60
   - name: Sphere Lava
-    info: "Cho\xE1ng 2 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 80
   - name: Fire spirit
-    info: "T\u0103ng 50% s\xE1t th\u01B0\u01A1ng cho to\xE0n b\u1ED9 \u0111\u1ED3ng
-      minh"
+    info: Increase damage to all allies by 50%
     dmg: 0
   - name: Fire Arrow
-    info: "Gi\u1EA3m h\u1ED3i m\xE1u 30 % trong 4 gi\xE2y"
+    info: Reduces healing by 30% for 4 seconds
     dmg: 300
   - name: Fire Wave
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng 3 l\u1EA7n"
+    info: Deal damage 3 times
     dmg: 0
   - name: Fire Armor
-    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c ngu\u1ED3n s\xE1t
-      th\u01B0\u01A1ng h\u1EC7 l\u1EEDa"
+    info: Reduces damage from fire damage sources by 50%
     dmg: 0
   - name: Fire Double Slash
-    info: "Ch\u1EA3y m\xE1u 4 l\u01B0\u1EE3t"
+    info: Bleeding 4 turns
     dmg: 175
   - name: Fire Slash
-    info: "Ch\u1EA3y m\xE1u 2 l\u01B0\u1EE3t"
+    info: Bleeding 2 turns
     dmg: 300
   - name: Fire Rain
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
-      trong 4 gi\xE2y"
+    info: Deals continuous damage every 0.25 seconds for 4 seconds
     dmg: 20
   - name: Fire Wall
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i gi\xE2y trong
-      3 gi\xE2y"
+    info: Deals continuous damage every second for 3 seconds
     dmg: 100
   - name: Fire Wave
-    info: "To\xE0n b\u1ED9 m\u1EE5c ti\xEAu trong ph\u1EA1m vi \u1EA3nh h\u01B0\u1EDFng"
+    info: Deal damage to all targets within range
     dmg: 250
   - name: Breath Of Fire
-    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch ch\u1ECBu th\xEAm 30% s\xE1t th\u01B0\u01A1ng
-      h\u1EC7 l\u1EEDa trong 3 gi\xE2y"
+    info: Causes enemies to take 30% more fire damage for 3 seconds
     dmg: 350
   waterSkill:
   - name: Triple Ice Tornado
-    info: "To\xE0n b\u1ED9 k\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n
-      c\xF4ng \u0111\u01B0\u1EE3c trong 2 gi\xE2y"
+    info: All enemies are raised and unable to attack for 2 seconds
     dmg: 60
   - name: Ice Shuriken
-    info: "Ch\u1EA3y m\xE1u (5%) m\u1ED7i 1 gi\xE2y v\xE0 gi\u1EA3m h\u1ED3i m\xE1u
-      30% trong 3 gi\xE2yCh\u1EA3y m\xE1u (5%) m\u1ED7i 1 gi\xE2y v\xE0 gi\u1EA3m
-      h\u1ED3i m\xE1u 30% trong 3 gi\xE2y"
+    info: Bleed (5%) every 1 second and reduces healing by 30% for 3 seconds
     dmg: 70
   - name: Cold Swirl
-    info: "Gi\u1EA3m 50% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh c\u1EE7a k\u1EBB \u0111\u1ECBch "
+    info: Reduces enemy attack speed by 50%
     dmg: 0
   - name: Blizzard
-    info: "T\u0103ng 50% s\xE1t th\u01B0\u01A1ng cho to\xE0n b\u1ED9 \u0111\u1ED3ng
-      minh"
+    info: Increase damage to all allies by 50%
     dmg: 0
   - name: Ice Spear
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn t\u1EA5t c\u1EA3 k\u1EBB \u0111\u1ECBch"
+    info: Deal damage to all enemies
     dmg: 0
   - name: Frost Umbrella
-    info: "G\xE2y ch\u1EA3y m\xE1u (5%) 3 l\u01B0\u1EE3t"
+    info: Bleed (5%) 3 turns
     dmg: 0
   - name: Ice Blast
-    info: "G\xE2y cho\xE1ng 2 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 0
   - name: Cold Shards
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
-      trong 4 gi\xE2y"
+    info: Deals continuous damage every 0.25 seconds for 4 seconds
     dmg: 0
   - name: Ice Restoration
-    info: "H\u1ED3i 20% m\xE1u cho to\xE0n b\u1ED9 \u0111\u1ED3ng minh"
+    info: Restores 20% health to all allies
     dmg: 0
   - name: Flying Cold
-    info: "Gi\u1EA3m 30% t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng to\xE0n b\u1ED9 k\u1EBB
-      \u0111\u1ECBch"
+    info: Reduces all enemies' attack speed by 30%
     dmg: 0
   - name: Frost Spikes
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng 2 l\u1EA7n"
+    info: Deal damage 2 times
     dmg: 0
   - name: Ice Strike
-    info: "Ch\u1EA3y m\xE1u (5%) 2 l\u01B0\u1EE3t"
+    info: Bleeding (5%) 2 turns
     dmg: 0
   - name: Ice Meteors
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng m\u1ED7i 0.25 gi\xE2y k\xE8m g\xE2y cho\xE1ng
-      0.25 gi\xE2y trong 2 gi\xE2y"
+    info: Deals damage every 0.25 seconds and stuns for 0.25 seconds for 2 seconds
     dmg: 0
   - name: Ice Prison
-    info: "\u0110\xF3ng b\u0103ng k\u1EBB \u0111\u1ECBch trong 3 gi\xE2y, khi\u1EBFn
-      ch\xFAng kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng"
+    info: Freezes enemies for 3 seconds, rendering them unable to attack
     dmg: 0
   - name: Ice Tornado
-    info: "\u0110\u01B0a k\u1EBB \u0111\u1ECBch l\xEAn tr\xEAn kh\xF4ng trong 3 gi\xE2y
-      (k\u1EBB \u0111\u1ECBch kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng) "
+    info: Brings enemies into the air for 3 seconds (enemies cannot attack)
     dmg: 0
   - name: Ice Aura
-    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c ngu\u1ED3n s\xE1t
-      th\u01B0\u01A1ng h\u1EC7 l\u1EEDa"
+    info: Reduces damage from fire damage sources by 50%
     dmg: 0
   - name: Water Laser
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 1 gi\xE2y trong
-      6 gi\xE2y"
+    info: Deals continuous damage every 1 second for 5 seconds
     dmg: 0
   - name: Water Jet
-    info: "T\u0103ng 30% s\xE1t th\u01B0\u01A1ng cho c\xE1c k\u1EF9 n\u0103ng h\u1EC7
-      n\u01B0\u1EDBc l\xEAn m\u1EE5c ti\u1EBBu trong 3s"
+    info: Increases damage of water-type skills by 30% to target for 3s
     dmg: 0
   - name: Water Double Slash
-    info: "T\u0103ng 10% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
-      tr\xFAng chi\xEAu trong 3s"
+    info: Increases Critical Rate by 10% on hit targets for 3s
     dmg: 0
   - name: Water Slash
-    info: "T\u0103ng 5% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
-      tr\xFAng chi\xEAu trong 3 gi\xE2y"
+    info: Increases crit chance on target hit by 5% for 3 seconds
     dmg: 0
   lightSkill:
   - name: Baptism
-    info: "Gi\u1EA3m 30% h\u1ED3i m\xE1u trong 3 gi\xE2y"
+    info: Reduces HP regeneration by 30% for 3 seconds
     dmg: 0
   - name: Blessings From God
-    info: "Mi\u1EC5n nhi\u1EC5m m\u1ECDi s\xE1t th\u01B0\u01A1ng t\u1EEB m\u1ECDi
-      ngu\u1ED3n trong 3 gi\xE2y"
+    info: Immune to all damage from all sources for 3 seconds
     dmg: 0
   - name: A Thousand Arrows
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
-      trong 4 gi\xE2y"
+    info: Deals continuous damage every 0.25 seconds for 4 seconds
     dmg: 0
   - name: Repent
-    info: "T\u0103ng 50% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 \xE1nh s\xE1ng trong
-      3 gi\xE2y"
+    info: Increases light damage by 50% for 3 seconds
     dmg: 0
   - name: Bright Bomb
-    info: "G\xE2y m\xF9 trong 3 gi\xE2y"
+    info: Blind for 3 seconds
     dmg: 0
   - name: Light Rain
-    info: "T\u0103ng 25% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng trong 3 gi\xE2y"
+    info: Increases Critical Rate by 25% for 3s
     dmg: 0
   - name: Light Spears
-    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch ch\u1ECBu th\xEAm 100% s\xE1t th\u01B0\u01A1ng
-      ch\xED m\u1EA1ng trong 3 gi\xE2y"
+    info: Causes enemies to take 100% extra critical damage for 3 seconds
     dmg: 0
   - name: Light Healing
-    info: "H\u1ED3i 50% m\xE1u \u0111\xE3 m\u1EA5t"
+    info: Restores 50% of lost health
     dmg: 0
   - name: Light Armor
-    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 \xE1nh s\xE1ng v\xE0
-      b\xF3ng t\u1ED1i trong 3 gi\xE2y"
+    info: Reduces light and shadow damage by 50% for 3 seconds
     dmg: 0
   - name: Speed Of Light
-    info: "T\u0103ng 100% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh trong 3 gi\xE2y"
+    info: Increases attack speed by 100% for 3 seconds
     dmg: 0
   - name: Light Laser
-    info: "Gi\u1EA3m 30% h\u1ED3i m\xE1u trong 3 gi\xE2y"
+    info: Reduces HP regeneration by 30% for 3 seconds
     dmg: 0
   - name: Ultraviolet Ray
-    info: "Thi\xEAu ch\xE1y (5% m\xE1u) trong 3 gi\xE2y"
+    info: Ignite (5% Health) for 3 seconds
     dmg: 0
   - name: Pray For Stun
-    info: "G\xE2y cho\xE1ng trong 2 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 0
   - name: Area Of Light
-    info: "Gi\u1EA3m 30% t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng to\xE0n b\u1ED9 k\u1EBB
-      \u0111\u1ECBch"
+    info: Reduces all enemies' attack speed by 30%
     dmg: 0
   - name: Light Prison
-    info: "B\u1EA5t \u0111\u1ED9ng k\u1EBB \u0111\u1ECBch trong 3 gi\xE2y, khi\u1EBFn
-      ch\xFAng kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng"
+    info: Immobilize enemies for 3 seconds, making them unable to attack
     dmg: 0
   - name: Light Sword
-    info: "Ch\u1EA3y m\xE1u trong 3 gi\xE2y"
+    info: Bleed for 3 seconds
     dmg: 0
   - name: Light Kick
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng m\u1ED7i 0,5 gi\xE2y trong 2,5 gi\xE2y
-      k\xE8m cho\xE1ng 0,5 gi\xE2y"
+    info: Deals damage every 0.5 seconds for 2.5 seconds with a 0.5 second stun
     dmg: 0
   - name: Headlight
-    info: "T\u0103ng 30% s\xE1t th\u01B0\u01A1ng cho c\xE1c k\u1EF9 n\u0103ng h\u1EC7
-      \xE1nh s\xE1ng l\xEAn m\u1EE5c ti\xEAu trong 3s"
+    info: Increases damage of light-type skills by 30% to targets for 3s
     dmg: 0
   - name: Double Light Slash
-    info: "T\u0103ng 10% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
-      tr\xFAng chi\xEAu trong 3s"
+    info: Increases Critical Rate by 10% on hit targets for 3s
     dmg: 0
   - name: Light Slash
-    info: "T\u0103ng 5% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
-      tr\xFAng chi\xEAu trong 3 gi\xE2y"
+    info: Increases crit chance on target hit by 5% for 3 seconds
     dmg: 0
   darkSkill:
   - name: Shadow curst
-    info: "Khi\u1EBFn t\u1EA5t c\u1EA3 k\u1EBB \u0111\u1ECBch t\u1EA5n c\xF4ng 1
-      k\u1EBB \u0111\u01B0\u1EE3c ch\u1ECDn"
+    info: Causes all enemies to attack 1 selected enemy
     dmg: 0
   - name: Pulse
-    info: "Mini stun k\u1EBB \u0111\u1ECBch, gi\u1EA3m 20% s\xE1t th\u01B0\u01A1ng
-      trong l\u01B0\u1EE3t ti\u1EBFp theo"
+    info: "Mini stuns the enemy, taking 20% \u200B\u200Bless damage for the next
+      turn"
     dmg: 0
   - name: Son of the dark
-    info: "Kh\xF4ng th\u1EC3 target nh\u01B0ng nh\u1EADn th\xEAm 20% s\xE1t th\u01B0\u01A1ng
-      \u0111\u1EBFn t\u1EEB k\u1EF9 n\u0103ng"
+    info: Untargetable but takes 20% more damage from skills
     dmg: 0
   - name: Take my energy
-    info: "T\u1EA1o l\u1EDBp m\xE1u \u1EA3o h\u1EA5p th\u1EE5 t\u1ED1i \u0111a 300
-      s\xE1t th\u01B0\u01A1ng gi\u1EA3m d\u1EA7n theo th\u1EDDi gian"
+    info: Creates a layer of virtual health that absorbs up to 300 damage that decays
+      over time
     dmg: 0
   - name: Fearing me
-    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch khi\u1EBFp h\xE3i kh\xF4ng th\u1EC3
-      t\u1EA5n c\xF4ng b\u1EA3n th\xE2n"
+    info: Make enemies unable to attack themselves
     dmg: 0
   - name: Rise up
-    info: "G\xE2y th\xEAm 20% s\xE1t th\u01B0\u01A1ng l\xEAn k\u1EBB \u0111\xEDch
-      kh\u1EAFc h\u1EC7 "
+    info: Deals 20% more damage to unique enemies
     dmg: 0
   - name: Hand of god
-    info: "\u0110\xF2n \u0111\xE1nh ti\u1EBFp theo ch\u1EAFc ch\u1EAFn ch\xED m\u1EA1ng"
+    info: The next hit is definitely fatal
     dmg: 0
   - name: Only you
-    info: "Hi sinh 10% m\xE1u \u0111\u1EC3 g\xE2y 150% s\xE1t th\u01B0\u01A1ng l\xEAn
-      \u0111\u1ED1i ph\u01B0\u01A1ng"
+    info: Sacrifices 10% health to deal 150% damage to enemies
     dmg: 0
   - name: Dark power
-    info: "Bi\u1EBFn l\u01B0\u1EE3ng m\xE1u \u0111\xE3 m\u1EA5t th\xE0nh l\u1EDBp
-      gi\xE1p \u1EA3o, gi\u1EA3m d\u1EA7n theo th\u1EDDi gian"
+    info: Turns lost health into virtual armor, decreasing 30% in 1 turn
     dmg: 0
   - name: Sink in the dark
-    info: "L\xE0m k\u1EBB \u0111\u1ECBch m\u1EA5t t\u1EA7m nh\xECn, t\u1EA5n c\xF4ng
-      ng\u1EABu nhi\xEAn"
+    info: Make enemies lose sight, attack randomly
     dmg: 0
   - name: Haunting
-    info: "Gi\u1EA3m 20% s\xE1t th\u01B0\u01A1ng \u0111\u1ED3ng th\u1EDDi g\xE2y
-      15% s\xE1t th\u01B0\u01A1ng trong 3 turn"
+    info: Reduces damage by 20% and deals 15% damage for 3 turns
     dmg: 0
   - name: Duel
-    info: "Khi\u1EBFn b\u1EA3n th\xE2n v\xE0 m\u1EE5c ti\xEAu kh\xF4ng th\u1EC3 t\u1EA5n
-      c\xF4ng trong 1 turn"
+    info: Make yourself and the target invulnerable for 1 turn
     dmg: 0
   - name: Follow me
-    info: "Khi\u1EBFn m\u1ED9t k\u1EBB \u0111\u1ECBch ch\u1ECF c\xF3 th\u1EC3 t\u1EA5n
-      c\xF4ng b\u1EA3n th\xE2n, gi\u1EA3m 30% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o"
+    info: Causes an enemy to attack yourself, taking 30% less damage
     dmg: 0
   - name: Dust till dawn
-    info: "Delay s\xE1t th\u01B0\u01A1ng 1 turn"
+    info: Delay damage 1 turn
     dmg: 0
   - name: Dark blade
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9 \u0111\u1ED9i h\xECnh
-      \u0111\u1ED1i ph\u01B0\u01A1ng"
+    info: "Deal damage 70 s\xE1t th\u01B0\u01A1ng to the entire enemy squad"
     dmg: 0
   - name: Storm break
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9 \u0111\u1ED9i h\xECnh
-      t\u0103ng 20% sau khi t\xE1c \u0111\u1ED9ng l\xEAn m\u1ED7i k\u1EBB \u0111\u1ECBch"
+    info: Deal damage to the entire squad increased by 20% after impacting each enemy
     dmg: 0
   - name: Ninja gear
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xE0m ch\u1EADm 30%"
+    info: Deals 30% slow damage
     dmg: 0
   - name: Into the dark
-    info: "Kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng \u0111\u1ED3ng th\u1EDDi kh\xF4ng
-      th\u1EC3 t\u1EA5n c\xF4ng, h\u1ED3i 50% m\xE1u \u0111\xE3 m\u1EA5t"
+    info: Does not take damage and cannot attack, restores 50% of missing health
     dmg: 0
   - name: Promise me
-    info: "Hi sinh 30% m\xE1u hi\u1EC7n t\u1EA1i \u0111\u1EC3 h\u1ED3i 50% \u0111\xE3
-      m\u1EA5t c\u1EE7a \u0111\u1ED3ng minh"
+    info: Sacrifices 30% of current health to restore allied's lost 50%
     dmg: 0
   - name: Lick head
-    info: "Trong turn ti\u1EBFp theo n\u1EBFu d\xF9ng k\u1EF9 n\u0103ng s\u1EBD m\u1EA5t
-      20% m\xE1u t\u1ED1i \u0111a"
+    info: In the next turn, if you use a skill, you will lose 20% of your maximum
+      health
     dmg: 0
   natureSkill:
   - name: Runic Spikes
-    info: "Ch\u1EA3y m\xE1u 3 gi\xE2y"
+    info: Bleeding (5%) 3 seconds
     dmg: 350
   - name: Side Spikes
-    info: "Ch\u1EA3y m\xE1u 4 gi\xE2y "
+    info: Bleeding (5%) 3 seconds
     dmg: 250
   - name: Spiked Sphered
-    info: "Ch\u1EA3y m\xE1u 4s v\xE0 gi\u1EA3m h\xF2i m\xE1u 30%"
+    info: Bleed (5%) 3 seconds and reduced blood loss by 30%
     dmg: 80
   - name: Splitting the stones
-    info: "G\xE2y cho\xE1ng 2 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 200
   - name: Stone Stun
-    info: "G\xE2y cho\xE1ng 1 gi\xE2y"
+    info: Stun for 2 seconds
     dmg: 60
   - name: Earth Slash
-    info: "G\xE2y m\xF9 3 gi\xE2y (\u0111\xE1nh miss) "
+    info: Blind for 3 seconds (hit miss)
     dmg: 300
   - name: Earth Double Slash
-    info: "G\xE2y m\xF9 3 gi\xE2y (\u0111\xE1nh miss) "
+    info: Blind for 3 seconds (hit miss)
     dmg: 350
   - name: Natural Sphere
-    info: "T\u0103ng 50% s\xE1t th\u01B0\u01A1ng cho \u0111\u1ED3ng minh trong 2
-      gi\xE2y"
+    info: Increases damage to allies by 50% for 2 seconds
     dmg: 0
   - name: Healing Nature
-    info: "H\u1ED3i 5% m\xE1u m\u1ED7i 0,5 gi\xE2y trong 3 gi\xE2y"
+    info: Heals 5% health every 0.5 seconds for 3 seconds
     dmg: 0
   - name: Nature Laser
-    info: "Gi\u1EA3m h\u1ED3i m\xE1u 30%"
+    info: Deals damage every 1 second and reduces healing by 30% for 5 seconds
     dmg: 300
   - name: Nature Tornado
-    info: "\u0110\u01B0a k\u1EBB \u0111\u1ECBch l\xEAn tr\xEAn kh\xF4ng trong 3 gi\xE2y
-      (k\u1EBB \u0111\u1ECBch kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng) "
+    info: Brings enemies into the air for 3 seconds (enemies cannot attack)
     dmg: 0
   - name: Triple Nature Tornado
-    info: "To\xE0n b\u1ED9 k\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n
-      c\xF4ng \u0111\u01B0\u1EE3c trong 2 gi\xE2y"
+    info: All enemies are raised and unable to attack for 2 seconds
     dmg: 0
   - name: Throw stones
-    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch ch\u1ECBu th\xEAm 30% s\xE1t th\u01B0\u01A1ng
-      h\u1EC7 l\u1EEDa trong 3 gi\xE2y"
+    info: Causes enemies to take 30% more fire damage for 3 seconds
     dmg: 0
   - name: Stone Armor
-    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c ngu\u1ED3n s\xE1t
-      th\u01B0\u01A1ng h\u1EC7 l\u1EEDa"
+    info: Reduces damage from fire damage sources by 50%
     dmg: 0
   - name: Stone Meteor
-    info: "G\xE2y cho\xE1ng 3 gi\xE2y"
+    info: Stun for 3 seconds
     dmg: 0
   - name: Tree Binding
-    info: "Gi\u1EA3m 50% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh trong 3 gi\xE2y"
+    info: Reduces attack speed by 50% for 3 seconds
     dmg: 0
   - name: Stone Rain
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
-      trong 4 gi\xE2y"
+    info: Deals continuous damage every 0.25 seconds for 4 seconds
     dmg: 0
   - name: Stone Spear
-    info: "Ch\u1ECBu th\xEAm 30% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 thi\xEAn
-      nhi\xEAn trong 3 gi\xE2y"
+    info: Take 30% more damage from nature for 3 seconds
     dmg: 0
   - name: Stone Wall
-    info: "\u0110\u1EE1 to\xE0n b\u1ED9 s\xE1t th\u01B0\u01A1ng trong 2 gi\xE2y"
+    info: Block all damage for 2 seconds
     dmg: 0
   - name: Stone Prison
-    info: "Ho\xE1 \u0111\xE1 k\u1EBB \u0111\u1ECBch trong 3 gi\xE2y, khi\u1EBFn ch\xFAng
-      kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng"
+    info: Petrify enemies for 3 seconds, making them unable to attack
     dmg: 0
   c1Skill:
   - name: Dragon Roar
-    info: "T\u0103ng 30% dame + 20% Crt trong 3 l\u01B0\u1EE3t"
+    info: Increases damage by 30% + 20% Crt for 3 turns
     dmg: 0
   - name: Dragon Speed
-    info: "C\xF3 kh\u1EA3 n\u0103ng nh\u1EADn \u0111c 2 l\u01B0\u1EE3t li\xEAn ti\u1EBFp"
+    info: Likely to get 2 turns in a row
     dmg: 0
   - name: Dragon Soul
-    info: "Gi\u1EA3m 10% s\xE1t th\u01B0\u01A1ng v\xE0 g\xE2y th\xEAm 10% cho c\xE1c
-      t\u1ED9c kh\xE1c t\u1ED9c r\u1ED3ng"
+    info: Reduces damage by 10% and deals 10% more to races other than dragons
     dmg: 0
   - name: Dragon Eyes
-    info: "C\u1EE9 sau 3 l\u01B0\u1EE3t th\xEC l\u01B0\u1EE3t k\u1EBF ti\u1EBFp s\u1EBD
-      ch\u1EAFc ch\u1EAFn ch\xED m\u1EA1ng"
+    info: Every 3 turns, the next turn will definitely crit
     dmg: 0
   - name: Dragon Scale
-    info: "M\u1ED7i l\u1EA7n nh\u1EADn s\xE1t th\u01B0\u01A1ng s\u1EBD \u0111\u01B0\u1EE3c
-      nh\u1EADn 5% gi\u1EA3m s\xE1t th\u01B0\u01A1ng + d\u1ED3n"
+    info: Every time you take damage, you will receive 5% damage reduction + stacks
     dmg: 0
   - name: Dragon Claw
-    info: "\u0110\xF2n \u0111\xE1nh ch\xED m\u1EA1ng g\xE2y th\xEAm 30% s\xE1t th\u01B0\u01A1ng
-      ch\u1EA3y m\xE1u trong 3 l\u01B0\u1EE3t"
+    info: Critical hits deal 30% more bleeding damage for 3 turns
     dmg: 0
   - name: Dragon Heart
-    info: "T\u0103ng m\u1ED7i l\u1EA7n nh\u1EADn \u0111\u01B0\u1EE3c h\u1ED3i m\xE1u
-      th\xEC hi\u1EC7u \u1EE9ng \u0111\xF3 \u0111c t\u0103ng 160%"
+    info: Increase each time you receive healing, the effect is increased by 160%
     dmg: 0
   - name: Dragon Blood
-    info: "M\u1EA5t 10 m\xE1u s\u1EBD nh\u1EADn \u0111c 1 h\u1ED3i m\xE1u trong l\u01B0\u1EE3t
-      ti\u1EBFp theo"
+    info: If you lose 10 health, you will gain 1 health regeneration the next turn
     dmg: 0
   - name: Dragon Tail
-    info: "T\u1EA5n c\xF4ng th\u01B0\u1EDDng t\u0103ng 20% s\xE1t th\u01B0\u01A1ng
-      b\u1EA1o k\xEDch"
+    info: Normal attack increases Strike damage by 20%
     dmg: 0
   - name: Overheat
-    info: "T\u1EA5n c\xF4ng 8 l\u1EA7n, l\u1EA7n th\u1EE9 9 s\u1EBD g\xE2y th\xEAm
-      200% s\xE1t th\u01B0\u01A1ng"
+    info: Attack 8 times, the 9th time will deal 200% more damage
     dmg: 0
   c2Skill:
   - name: Mermaid Song
-    info: "H\u1ED3i m\xE1u cho c\u1EA3 team 20% khi m\xE1u c\u1EE7a b\u1EA1n d\u01B0\u1EDBi
-      30%"
+    info: After every 3 turns, when your health is below 30% heal 20% for the whole
+      team
     dmg: 0
   - name: Mermaid Sing
-    info: "M\u1ED7i khi t\u1EA5n c\xF4ng c\xF3 5% t\u1EF7 l\u1EC7 h\u1ED3i l\u01B0\u1EE3t
-      ngay t\u1EADp t\u1EE9c cho 1 \u0111\u1ED3ng minh"
+    info: Every time you attack, there is a 5% instant regen for 1 ally
     dmg: 0
   - name: Mermaid Heart
-    info: "Ng\u01B0\u1EDDi c\xE1 t\u0103ng th\xEAm 10 speed sau m\u1ED7i l\u1EA7n
-      s\xE0i skill"
+    info: The mermaid gains 10 speed after each skill cast
     dmg: 0
   - name: Mermaid Tail
-    info: "\u0110\xE1nh th\u01B0\u1EDDng t\u0103ng 30% s\xE1t th\u01B0\u01A1ng"
+    info: 10% increase in basic attack damage by 30%
     dmg: 0
   - name: Mermaid Touch
-    info: "M\u1ED7i khi t\u1EA5n c\xF4ng hay s\xE0i skill c\xF3 kh\u1EA3 n\u0103ng
-      10% \u0111\xF3ng b\u0103ng \u0111\u1ED1i th\u1EE7 trong 1 turn"
+    info: Every time you attack or use a skill, there is a 10% chance to freeze the
+      opponent for 1 turn
     dmg: 0
   - name: Water Skin
-    info: "Khi b\u1ECB t\u1EA5n c\xF4ng b\u1EDFi k\u1EBB \u0111\u1ECBch c\xF3 % m\xE1u
-      cao h\u01A1n b\u1EA3n th\xE2n th\xEC c\xF3 25% slow speed c\u1EE7a k\u1EBB
-      \u0111\u1ECBch"
+    info: When attacked by an enemy with a % higher health than yourself, there is
+      25% slow speed of the enemy
     dmg: 0
   - name: Power of water
-    info: "T\u1EF1 \u0111\xF3ng b\u0103ng b\u1EA3n th\xE2n h\u1ED3i l\u1EA1i 50%
-      m\xE1u \u0111\xE3 m\u1EA5t, kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng t\u1EEB
-      \u0111\u1ED1i ph\u01B0\u01A1ng"
+    info: Possesses 5% of self-freeze at the end of the turn, restores 50% of the
+      lost health, taking no damage from enemies
     dmg: 0
   - name: Stay together
-    info: "\u0110\xF2n \u0111\xE1nh \u0111\xE1nh d\u1EA5u k\u1EBB \u0111\u1ECBch
-      cho t\u0103ng th\xEAm 10% s\xE1t th\u01B0\u01A1ng nh\u1EADn ph\u1EA3i"
+    info: Attacks that mark an enemy grant 10% more damage taken
     dmg: 0
   - name: Son of the beach
-    info: "Tr\u1EDF n\xEAn b\u1EA5t t\u1EEB, kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng
-      trong 3 turn nh\u01B0ng s\xE1t th\u01B0\u01A1ng gi\u1EA3m 40%"
+    info: Becomes invulnerable when below 5% health, takes no damage for 3 turns
+      but damage is reduced by 40%, once only
     dmg: 0
   - name: No mercy
-    info: "Nh\u1EADn th\xEAm m\u1ED9t l\u01B0\u1EE3t \u0111\xE1nh th\u01B0\u1EDDng
-      v\u1EDBi 70% \u0111\u01A1n m\u1EE5c ti\xEAu"
+    info: 10% gain an extra basic attack with 70% single target
     dmg: 0
   c3Skill:
   - name: Root
-    info: "Tr\xF3i ch\xE2n k\u1EBB \u0111\u1ECBch khi\u1EBFn k\u1EBB \u0111\u1ECBch
-      ch\u1ECBu 50dmg/turn trong 3 turn"
+    info: After 5 turns Binding enemies causes them to take 50dmg/turn for 3 turns
     dmg: 0
   - name: Living amour
-    info: "H\u1ED3i m\xE1u cho 1 \u0111\u1ED3ng minh d\u01B0\u1EDBi 25% m\xE1u 25/turn"
+    info: Heal 1 ally below 25% health 25/turn, once for the whole game
     dmg: 0
   - name: rind
-    info: "H\u1EA5p th\u1EE5 70% s\xE1t th\u01B0\u01A1ng th\xE0nh h\u1ED3i m\xE1u"
+    info: 10% absorb 70% damage as healing
     dmg: 0
   - name: Forest's protector
-    info: "Tr\u1EDF n\xEAn kh\u1ED5ng l\u1ED3 x2 m\xE1u"
+    info: When below 2% health, I become giant x5 current health
     dmg: 0
   - name: My friends
-    info: "T\u1EA1o l\u1EDBp khi\xEAng h\u1EA5p th\u1EE5 200 s\xE1t th\u01B0\u01A1ng"
+    info: 10% creates a shield that absorbs 200 damage
     dmg: 0
   - name: grown up
-    info: "Ng\u1EABu nhi\xEAn h\u1ED3i ph\u1EE5c 0  - 100 heal"
+    info: 20% randomly heals 0 - 100 heals per turn
     dmg: 0
   - name: nature eye
-    info: "Tr\u1EDF n\xEAn v\xF4 h\xECnh, kh\xF4ng th\u1EC3 target nh\u01B0ng v\u1EABn
-      c\xF3 th\u1EC3 ch\u1ECBu s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c skill AOE"
+    info: 5% chance of becoming invisible, untargetable but still able to take damage
+      from AOE skills
     dmg: 0
   - name: rise up
-    info: "H\u1ED3i sinh \u0111\u1ED3ng minh v\u1EDBi 50% m\xE1u"
+    info: After 10 turns, possess 2% revive allies with 50% health
     dmg: 0
   - name: bloom
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng"
+    info: Use 10% health to deal massive damage
     dmg: 0
   - name: one again
-    info: "Sau khi ch\u1EBFt \u0111\u1EC3 l\u1EA1i h\u1EA1t gi\u1ED1ng, h\u1ED3i
-      sinh sau 5 turn"
+    info: Leaves seeds after death, respawns after 5 turns
     dmg: 0
   c4Skill:
   - name: into the void
-    info: "V\xF4 hi\u1EC7u h\xF3a k\u1EBB \u0111\u1ECBch trong 3 turn ()"
+    info: After being below 25% health, nullify an enemy for 3 turns
     dmg: 0
   - name: conjuring
-    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn t\u01B0\u1EDBng \u0111\u1ECBch 3
-      turn 50/turn"
+    info: After every 5 turns, deal damage to enemy champions 3 turns 50/turn
     dmg: 0
   - name: wrong side
-    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch t\u1EA5n c\xF4ng 1 k\u1EBB \u0111\u1ECBch "
+    info: After every 5 turns, make the enemy attack 1 enemy
     dmg: 0
   - name: spike head
-    info: "Ph\u1EA3n 70% s\xE1t th\u01B0\u01A1ng ng\u01B0\u1EE3c l\u1EA1i k\u1EBB
-      \u0111\u1ECBch \u0111\u1ED3ng th\u1EDDi kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng"
+    info: Reflects 70% of the damage back to the enemy while taking no damage
     dmg: 0
   - name: power of evil
-    info: "T\u0103ng s\xE1t th\u01B0\u01A1ng k\u1EF9 n\u0103ng cho \u0111\u1ED3ng
-      minh"
+    info: Increases skill damage to allies
     dmg: 0
   - name: whiter
-    info: "Gi\u1EA3m 30% s\xE1t th\u01B0\u01A1ng \u0111\u1ED1i ph\u01B0\u01A1ng trong
-      2 turn"
+    info: When below 30% health, take 30% less damage of an enemy for 2 turns
     dmg: 0
   - name: Darkness's fusion
-    info: "S\u1EED d\u1EE5ng 10% m\xE1u hi\u1EC7n t\u1EA1i \u0111\u1EC3 khi\u1EBFn
-      \u0111\xF2n \u0111\xE1nh g\xE2y th\xEAm s\xE1t th\u01B0\u01A1ng"
+    info: When over 30% health, use 10% of current health to make attacks deal bonus
+      damage, heals every 3 turns
     dmg: 0
   - name: Death's offering
-    info: "\xD0\xE1nh d\u1EA5u 1 k\u1EBB \u0111\u1ECBch, khi\u1EBFn k\u1EBB \u0111\u1ECBch
-      nh\u1EADn s\xE1t th\u01B0\u01A1ng m\u1ED7i round v\xE0 gi\u1EA3m kh\u1EA3 n\u0103ng
-      ph\u1EE5c h\u1ED3i \u0111i 30%"
+    info: Marks 1 enemy every 5 turns, causing the enemy to take damage each round
+      and reduce their recovery by 30%.
     dmg: 0
   - name: Shred
-    info: "\xD0\xF2n \u0111\xE1nh g\xE2y 5% m\xE1u t\u1ED1i \u0111a c\u1EE7a k\u1EBB
-      \u0111\u1ECBch"
+    info: Every 3 turns, attacks deal 5% of the enemy's maximum health
     dmg: 0
   - name: Evil spirit
-    info: "Th\u1EA3 ra b\xF3ng ma g\xE2y s\xE1t th\u01B0\u01A1ng cho to\xE0n b\u1ED9
-      k\u1EBB \u0111\u1ECBch "
+    info: With every 4th turn, release a phantom that deals damage to all enemies
     dmg: 0
   c5Skill:
   - name: Double shot
-    info: "T\u1EA5n c\xF4ng c\xF3 40% t\u1EC9 l\u1EC7 b\u1EAFn th\xEAm 1 m\u0169i
-      t\xEAn, g\xE2y 60% atk"
+    info: Attack has a 40% chance to fire an additional arrow, dealing 60% atk
     dmg: 0
   - name: Hyper shot
-    info: "T\u1EA5n c\xF4ng th\u01B0\u1EDDng tr\xFAng \u0111\xEDch c\xF3 20% t\u1EC9
-      l\u1EC7 nh\u1EADn buff 100% atk cho l\u01B0\u1EE3t k\u1EBF"
+    info: Normal attack on target has 20% chance to receive 100% atk buff for next
+      turn
     dmg: 0
   - name: Hawk eye
-    info: "Nh\u1EADn 20% t\u1EC9 l\u1EC7 n\xE9"
+    info: Get 20% dodge rate
     dmg: 0
   - name: Bloodlust
-    info: "H\u1ED3i l\u1EA1i m\xE1u b\u1EB1ng v\u1EDBi 10% s\xE1t th\u01B0\u01A1ng
-      \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng"
+    info: Restores health equal to 10% of normal attack damage
     dmg: 0
   - name: Heavy arrow
-    info: "\u0110\xF2n b\u1EAFn th\u01B0\u1EDDng xuy\xEAn qua c\xE1c m\u1EE5c ti\xEAu
-      c\xF9ng 1 h\xE0ng"
+    info: Normal attack hit through targets in the same row
     dmg: 0
   - name: Bleeding arrow
-    info: "Khi \u0111\xE1nh ch\xED m\u1EA1ng s\u1EBD g\xE2y ch\u1EA3y m\xE1u trong
-      3 l\u01B0\u1EE3t"
+    info: Critically hit will cause bleeding for 3 turns
     dmg: 0
   - name: Shield breaker
-    info: "\u0110\xF2n ch\xED m\u1EA1ng gi\u1EA3m ph\xF2ng ng\u1EF1 c\u1EE7a m\u1EE5c
-      ti\xEAu \u0111i 30% trong 2 l\u01B0\u1EE3t"
+    info: Critical hits reduce target's defense by 30% for 2 turns
     dmg: 0
   - name: Recovery
-    info: "H\u1ED3i l\u1EA1i 50% n\u1ED9 sau khi d\xF9ng k\u0129 n\u0103ng"
+    info: Restores 50% energy after using skills
     dmg: 0
   - name: True power
-    info: "\u0110\xE1nh th\u01B0\u1EDDng tr\xFAng \u0111\xEDch t\u0103ng 5% atk g\u1ED1c"
+    info: Normal attack on target increases by 5% base attack
     dmg: 0
   - name: Stun arrow
-    info: "B\u1EAFn ch\xED m\u1EA1ng g\xE2y cho\xE1ng m\u1EE5c ti\xEAu, l\xE0m k\u1EBB
-      \u0111\u1ECBch kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng trong l\u01B0\u1EE3t k\u1EBF"
+    info: Critical shot stuns the target, making them unable to attack for the next
+      turn
     dmg: 0
   c6Skill:
   - name: Deep cut
-    info: "\u0110\xE1nh ch\xED m\u1EA1ng s\u1EBD g\xE2y ch\u1EA3y m\xE1u trong 3
-      l\u01B0\u1EE3t"
+    info: Critically attack will cause bleeding for 3 turns
     dmg: 0
   - name: Spread wing
-    info: "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng lan ra cho 2 k\u1EBB \u0111\u1ECBch
-      c\xF9ng h\xE0ng"
+    info: Normal attacks spread to enemies in the same row
     dmg: 0
   - name: High speed
-    info: "C\xF3 20% t\u1EC9 l\u1EC7 n\xE9"
+    info: Earn 20% dodge rate
     dmg: 0
   - name: Wound healing
-    info: "Khi m\xE1u xu\u1ED1ng d\u01B0\u1EDBi 50%, chuy\u1EC3n v\u1EC1 th\u1EBF
-      th\u1EE7, kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng, h\u1ED3i l\u1EA1i 20%
-      m\xE1u t\u1ED1i \u0111a m\u1ED7i l\u01B0\u1EE3t"
+    info: When health below 40%, change to defense, take no damage, restore 15% of
+      maximum health/turn for 2 turns
     dmg: 0
   - name: Counter attack
-    info: "Khi b\u1ECB \u0111\xE1nh b\u1EDFi k\u0129 n\u0103ng, c\xF3 20% t\u1EC9
-      l\u1EC7 ph\u1EA3n ng\u01B0\u1EE3c l\u1EA1i cho 1 k\u1EBB \u0111\u1ECBch b\u1EA5t
-      k\xEC"
+    info: When hit by a skill, there is a 20% chance to bounce back to any enemy
     dmg: 0
   - name: Killer
-    info: "Khi c\xF3 k\u1EBB \u0111\u1ECBch d\u01B0\u1EDBi 5% m\xE1u, bay \u0111\u1EBFn
-      k\u1EBFt li\u1EC5u k\u1EBB \u0111\u1ECBch \u0111\xF3"
+    info: When there is an enemy below 5% health, fly to enemy and finish him off
     dmg: 0
   - name: Life steal
-    info: "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng h\u1ED3i l\u1EA1i 10% m\xE1u
-      \u0111\xE3 m\u1EA5t"
+    info: Normal attacks restore 10% of missing health
     dmg: 0
   - name: Highly concentrated
-    info: "V\u1EEBa v\xE0o tr\u1EADn, n\xE9 to\xE0n b\u1ED9 s\xE1t th\u01B0\u01A1ng
-      cho 3 l\u01B0\u1EE3t"
+    info: when start battle, dodge all damage for 3 turns
     dmg: 0
   - name: Aim shoot
-    info: "Ch\u1ECDn ng\u1EABu nhi\xEAn 1 k\u1EBB \u0111\u1ECBch, g\xE2y 150% s\xE1t
-      th\u01B0\u01A1ng l\xEAn k\u1EBB \u0111\u1ECBch \u0111\xF3 trong su\u1ED1t tr\u1EADn"
+    info: Randomly select 1 enemy, dealing 150% damage to that enemy for the duration
+      of the match
     dmg: 0
   - name: Back to war
-    info: "Sau khi h\u1EBFt cho\xE1ng, b\u1EAFn l\xF4ng 3 v\xE0o k\u1EBB \u0111\u1ECBch,
-      g\xE2y 100% atk"
+    info: After the stun is over, shoot 3 feathers at the enemy, dealing 100% atk
     dmg: 0
   c7Skill:
   - name: Poison attack
-    info: "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng g\xE2y hi\u1EC7u \u1EE9ng \u0111\u1ED9c,
-      tr\u1EEB m\xE1u 3 l\u01B0\u1EE3t k\u1EBF"
+    info: Normal attacks deal poison effect, minus health for the next 3 turns
     dmg: 0
   - name: Bleeding attack
-    info: "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng g\xE2y hi\u1EC7u \u1EE9ng ch\u1EA3y
-      m\xE1u, tr\u1EEB m\xE1u 3 l\u01B0\u1EE3t k\u1EBF"
+    info: Normal attacks inflict bleeding, minus health for the next 3 turns
     dmg: 0
   - name: Spell block
-    info: "C\xF3 30% t\u1EC9 l\u1EC7 ch\u1EB7n k\u0129 n\u0103ng"
+    info: Has a 30% chance to block skills
     dmg: 0
   - name: Dodge
-    info: "C\xF3 30% t\u1EC9 l\u1EC7 n\xE9 tr\xE1nh \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng"
+    info: Has a 30% chance to dodge basic attacks
     dmg: 0
   - name: Awake
-    info: "Sau khi d\xF9ng k\u0129 n\u0103ng, atk to\xE0n \u0111\u1ED9i t\u0103ng
-      30% cho l\u01B0\u1EE3t k\u1EBF"
+    info: After using the skill, the team's ATK increases by 30% for the next turn
     dmg: 0
   - name: Bloodlust
-    info: "Sau khi d\xF9ng k\u0129 n\u0103ng, h\u1ED3i 30% m\xE1u \u0111\xE3 m\u1EA5t
-      cho b\u1EA3n th\xE2n, 15% cho to\xE0n \u0111\u1ED9i"
+    info: After using the skill, restore 30% of the lost health to yourself, 15%
+      to the whole team
     dmg: 0
   - name: Victim
-    info: "Khi c\u1EA1n m\xE1u, n\xE9m v\u0169 kh\xED v\xE0o k\u1EBB \u0111\u1ECBch,
-      g\xE2y 300% atk"
+    info: When it runs out of health, throw the weapon at the enemy, dealing 300%
+      atk
     dmg: 0
   - name: Double slash
-    info: "\u0110\xE1nh th\u01B0\u1EDDng 2 l\u1EA7n li\xEAn ti\u1EBFp, thay v\xEC
-      1 l\u1EA7n"
+    info: Normal attack 2 times
     dmg: 0
   - name: Strong mind
-    info: "Mi\u1EC5n nhi\u1EC5m v\u1EDBi cho\xE1ng"
+    info: Immune to Stun 3 time
     dmg: 0
   - name: Recovery
-    info: "\u0110\xE1nh ch\xED m\u1EA1ng h\u1ED3i l\u1EA1i 20% n\u1ED9"
+    info: Critical strike restores 20% energy
     dmg: 0
   c8Skill:
   - name: god of streng
-    info: "T\u1EF1 c\u01B0\u1EDDng h\xF3a b\u1EA3n th\xE2n nh\u1EADn th\xEAm 30%
-      s\xE1t th\u01B0\u01A1ng"
+    info: When below 30% health, empower yourself to take 30% more damage
     dmg: 0
   - name: dare you
-    info: "Khi\xEAu kh\xEDch 1 k\u1EBB \u0111\u1ECBch v\xE0 ch\u1EC9 nh\u1EADn 70%
-      s\xE1t th\u01B0\u01A1ng t\u1EEB nh\u1EEFng k\u1EBB \u0111\u1ECBch kh\xE1c"
+    info: Taunt 1 enemy and take only 70% damage from other enemies
     dmg: 0
   - name: double attack
-    info: "Th\xEAm 1 l\u1EA7n \u0111\xE1nh th\u01B0\u1EDDng v\u1EDBi 70% s\xE1t th\u01B0\u01A1ng"
+    info: 30% get 1 extra basic attack for 70% damage
     dmg: 0
   - name: incredible
-    info: "T\u0103ng 10 s\xE1t th\u01B0\u01A1ng sau m\u1ED7i l\u01B0\u1EE3t t\u1EA5n
-      c\xF4ng"
+    info: Increases damage by 10 per attack
     dmg: 0
   - name: man of steel
-    info: "Gi\u1EA3m 40% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o \u0111\u1ED3ng
-      th\u1EDDi g\xE2y ra 80% s\xE1t th\u01B0\u01A1ng so v\u1EDBi b\xECnh th\u01B0\u01A1ng"
+    info: Reduces damage taken by 40% while dealing 80% of normal damage
     dmg: 0
   - name: Albeyo
-    info: "\xD0\u1EE1 h\u1ED9 s\xE1t th\u01B0\u01A1ng cho \u0111\u1ED3ng minh th\u1EA5p
-      m\xE1u nh\u1EA5t"
+    info: 30% protects the lowest health ally
     dmg: 0
   - name: anti mage
-    info: "Gi\u1EA3m 100% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c k\u1EF9 n\u0103ng"
+    info: Has 25% chance to gain a shield that blocks 100% damage from skills once
     dmg: 0
   - name: hibernate
-    info: "Kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng, nh\u01B0ng h\u1EA5p th\u1EE5 to\xE0n
-      b\u1ED9 s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o chuy\u1EC3n th\xE0nh m\xE1u
-      trong su\u1ED1t 3 turn"
+    info: 25% absorbs all incoming damage as health for 3 turns but cannot attack
     dmg: 0
   - name: silent
-    info: "C\xE2m l\u1EB7ng \u0111\u1ED1i ph\u01B0\u01A1ng trong 1 turn ti\u1EBFp
-      theo"
+    info: Has a 25% chance to silence the opponent for the next 1 turn
     dmg: 0
   - name: warcry
-    info: "G\u1EA7m l\xEAn, cho to\xE0n b\u1ED9 \u0111\u1ED3ng minh 10% h\xFAt m\xE1u"
+    info: When an ally has less than 50% health, give all allies 10% lifesteal, once
+      only
     dmg: 0
   c9Skill:
   - name: Rock skin
-    info: "Nh\u1EADn gi\u1EA3m 40% s\xE1t th\u01B0\u01A1ng t\u1EEB m\u1ECDi ngu\u1ED3n"
+    info: Take 10% less damage from all sources
     dmg: 0
   - name: Reflect
-    info: "Sau 3 l\u01B0\u1EE3t, l\u01B0\u1EE3t ti\u1EBFp theo nh\u1EADn s\xE1t th\u01B0\u01A1ng
-      s\u1EBD ph\u1EA3n l\u1EA1i 30% cho k\u1EBB t\u1EA5n c\xF4ng"
+    info: After 3 turns, the next turn taking damage will reflect 30% damage to the
+      attacker
     dmg: 0
   - name: Heavy attack
-    info: "\u0110\xF2n ch\xED m\u1EA1ng s\u1EBD g\xE2y cho\xE1ng, k\u1EBB \u0111\u1ECBch
-      b\u1ECB cho\xE1ng kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng trong l\u01B0\u1EE3t ti\u1EBFp
-      theo"
+    info: Critical hits stun 1 turn
     dmg: 0
   - name: Rock shield
-    info: "Sau 3 l\u01B0\u1EE3t, t\u1EA1o m\u1ED9t khi\xEAn \u0111\xE1 cho \u0111\u1ED3ng
-      minh m\xE1u th\u1EA5p nh\u1EA5t, ch\u1EB7n 30% s\xE1t th\u01B0\u01A1ng nh\u1EADn,
-      ch\u1EC9 trong l\u01B0\u1EE3t k\u1EBF"
+    info: After 3 turns, create a stone shield for the lowest health ally, blocking
+      30% of damage taken, for the next turn only
     dmg: 0
   - name: Big rock shield
-    info: "Sau khi d\xF9ng k\u1EF9 n\u0103ng, t\u1EA1o khi\xEAn \u0111\xE1 cho t\u1EA5t
-      c\u1EA3 \u0111\u1ED3ng minh, ch\u1EB7n 30% s\xE1t th\u01B0\u01A1ng nh\u1EADn,
-      ch\u1EC9 trong l\u01B0\u1EE3t k\u1EBF"
+    info: After using the skill, create a stone shield for all allies, blocking 30%
+      of damage taken, for the next turn only
     dmg: 0
   - name: Regenerate
-    info: "N\u1EBFu b\u1ECB t\u1EA5n c\xF4ng trong l\u01B0\u1EE3t, \u0111\u1EBFn
-      cu\u1ED1i l\u01B0\u1EE3t h\u1ED3i l\u1EA1i 10% m\xE1u t\u1ED1i \u0111a"
+    info: If get hit during the turn, at the end of the turn restore 10% of your
+      maximum health
     dmg: 0
   - name: Strike twice
-    info: "Khi t\u1EA5n c\xF4ng c\xF3 10% t\u1EC9 l\u1EC7 \u0111\xE1nh th\xEAm l\u1EA7n
-      n\u1EEFa"
+    info: When attacking has 10% chance to hit again
     dmg: 0
   - name: Armor break
-    info: "\u0110\xF2n ch\xED m\u1EA1ng s\u1EBD gi\u1EA3m ph\xF2ng ng\u1EF1 c\u1EE7a
-      k\u1EBB \u0111\u1ECBch, khi\u1EBFn k\u1EBB \u0111\u1ECBch \u0111\xF3 nh\u1EADn
-      th\xEAm 20% dmg cho 2 l\u01B0\u1EE3t"
+    info: Critical hits reduce the enemy's defense, causing them to gain 20% more
+      dmg for 2 turns
     dmg: 0
   - name: Rock heart
-    info: "\u0110\xF2n ch\xED m\u1EA1ng s\u1EBD t\u0103ng tinh th\u1EA7n chi\u1EBFn
-      \u0111\u1EA5u, nh\u1EADn gi\u1EA3m 20% t\u1EA5n c\xF4ng cho 2 l\u01B0\u1EE3t"
+    info: Critical hits increase fighting spirit, gain 20% ATK reduction for 2 turns
     dmg: 0
   - name: Infinite power
-    info: "M\u1ED7i l\u1EA7n t\u1EA5n c\xF4ng tr\xFAng \u0111\xEDch s\u1EBD nh\u1EADn
-      th\xEAm 5% m\xE1u t\u1ED1i \u0111a"
+    info: When hit the target, you will gain 5% of your maximum health
     dmg: 0
   c10Skill:
   - name: Holy attack
-    info: "\u0110\xF2n \u0111\xE1nh th\u01B0\u1EDDng g\xE2y th\xEAm 20% atk"
+    info: Basic attacks deal 20% more ATK
     dmg: 0
   - name: Holy punish
-    info: "V\xE0o tr\u1EADn ch\u1ECDn 1 k\u1EBB \u0111\u1ECBch, gi\u1EA3m m\u1ECDi
-      ch\u1EC9 s\u1ED1 c\u1EE7a k\u1EBB \u0111\u1ECBch \u0111\xF3 \u0111i 20%"
+    info: In battle select 1 enemy, reduce all of that enemy's stats by 20%
     dmg: 0
   - name: Holy healing
-    info: "V\xE0o tr\u1EADn ch\u1ECDn 1 \u0111\u1ED3ng minh, t\u0103ng ch\u1EC9 s\u1ED1
-      c\u1EE7a \u0111\u1ED3ng minh n\xE0y l\xEAn 50%"
+    info: In battle select 1 ally, increase this ally's stats by 50%
     dmg: 0
   - name: Healing attack
-    info: "\u0110\xE1nh ch\xED m\u1EA1ng s\u1EBD h\u1ED3i 10% m\xE1u \u0111\xE3 m\u1EA5t
-      cho \u0111\u1ED3ng minh th\u1EA5p m\xE1u nh\u1EA5t"
+    info: Critical hits restore 10% of the ally's missing health to the lowest health
+      ally
     dmg: 0
   - name: Holy shield
-    info: "Sau 3 l\u01B0\u1EE3t, b\u1EA3n th\xE2n s\u1EBD nh\u1EADn khi\xEAn ch\u1EB7n
-      1 k\u0129 n\u0103ng k\u1EBF ti\u1EBFp"
+    info: After 3 turns, you will gain a shield that blocks the next skill
     dmg: 0
   - name: Holy bless
-    info: "Sau khi s\u1EED d\u1EE5ng k\u0129 n\u0103ng, gi\u1EA3i to\xE0n b\u1ED9
-      hi\u1EC7u \u1EE9ng b\u1EA5t l\u1EE3i cho \u0111\u1ED9i"
+    info: After using the skill, remove all negative effects on the team
     dmg: 0
   - name: Strike twike
-    info: "\u0110\xE1nh th\u01B0\u1EDDng 2 l\u1EA7n, l\u1EA7n th\u1EE9 2 s\u1EBD
-      nh\u1EAFm v\xE0o k\u1EBB \u0111\u1ECBch th\u1EA5p m\xE1u nh\u1EA5t"
+    info: Normal attack 2 times, the second time will hit enemy with the lowest health
     dmg: 0
   - name: Enegy steal
-    info: "Sau khi s\u1EED d\u1EE5ng k\u0129 n\u0103ng, \u0111\xE1nh c\u1EAFp 20%
-      n\u1ED9 k\u1EBB \u0111\u1ECBch, b\u1EA3n th\xE2n t\u0103ng 20% n\u1ED9"
+    info: After using a skill, steal 20% of the enemy's energy, gain 20% of your
+      own energy
     dmg: 0
   - name: Keep going
-    info: "Khi c\xF3 1 k\u1EBB \u0111\u1ECBch b\u1ECB ti\xEAu di\u1EC7t, h\u1ED3i
-      20% m\xE1u cho \u0111\u1ED3ng minh th\u1EA5p m\xE1u nh\u1EA5t"
+    info: When 1 enemy is destroyed, heal 20% of the lowest health ally
     dmg: 0
   - name: Health swap
-    info: "Khi m\xE1u th\u1EA5p h\u01A1n 20%, ho\xE1n \u0111\u1ED5i m\xE1u v\u1EDBi
-      k\u1EBB \u0111\u1ECBch ng\u1EABu nhi\xEAn, ch\u1EC9 d\xF9ng \u0111\u01B0\u1EE3c
-      1 l\u1EA7n"
+    info: When health is lower than 20%, swap health with random enemy, can only
+      be used once
     dmg: 0
 --- !u!4 &137015423
 Transform:
