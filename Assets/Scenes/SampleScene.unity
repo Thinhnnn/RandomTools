@@ -214,7 +214,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2725,126 +2725,154 @@ MonoBehaviour:
       tr\xFAng chi\xEAu trong 3 gi\xE2y"
     dmg: 0
   lightSkill:
-  - name: 
-    info: 
+  - name: Baptism
+    info: "Gi\u1EA3m 30% h\u1ED3i m\xE1u trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Blessings From God
+    info: "Mi\u1EC5n nhi\u1EC5m m\u1ECDi s\xE1t th\u01B0\u01A1ng t\u1EEB m\u1ECDi
+      ngu\u1ED3n trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: A Thousand Arrows
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
+      trong 4 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Repent
+    info: "T\u0103ng 50% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 \xE1nh s\xE1ng trong
+      3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Bright Bomb
+    info: "G\xE2y m\xF9 trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Rain
+    info: "T\u0103ng 25% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Spears
+    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch ch\u1ECBu th\xEAm 100% s\xE1t th\u01B0\u01A1ng
+      ch\xED m\u1EA1ng trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Healing
+    info: "H\u1ED3i 50% m\xE1u \u0111\xE3 m\u1EA5t"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Armor
+    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 \xE1nh s\xE1ng v\xE0
+      b\xF3ng t\u1ED1i trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Speed Of Light
+    info: "T\u0103ng 100% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Laser
+    info: "Gi\u1EA3m 30% h\u1ED3i m\xE1u trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Ultraviolet Ray
+    info: "Thi\xEAu ch\xE1y (5% m\xE1u) trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Pray For Stun
+    info: "G\xE2y cho\xE1ng trong 2 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Area Of Light
+    info: "Gi\u1EA3m 30% t\u1ED1c \u0111\u1ED9 t\u1EA5n c\xF4ng to\xE0n b\u1ED9 k\u1EBB
+      \u0111\u1ECBch"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Prison
+    info: "B\u1EA5t \u0111\u1ED9ng k\u1EBB \u0111\u1ECBch trong 3 gi\xE2y, khi\u1EBFn
+      ch\xFAng kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Sword
+    info: "Ch\u1EA3y m\xE1u trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Kick
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng m\u1ED7i 0,5 gi\xE2y trong 2,5 gi\xE2y
+      k\xE8m cho\xE1ng 0,5 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Headlight
+    info: "T\u0103ng 30% s\xE1t th\u01B0\u01A1ng cho c\xE1c k\u1EF9 n\u0103ng h\u1EC7
+      \xE1nh s\xE1ng l\xEAn m\u1EE5c ti\xEAu trong 3s"
     dmg: 0
-  - name: 
-    info: 
+  - name: Double Light Slash
+    info: "T\u0103ng 10% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
+      tr\xFAng chi\xEAu trong 3s"
     dmg: 0
-  - name: 
-    info: 
+  - name: Light Slash
+    info: "T\u0103ng 5% t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng tr\xEAn m\u1EE5c ti\xEAu
+      tr\xFAng chi\xEAu trong 3 gi\xE2y"
     dmg: 0
   darkSkill:
-  - name: 
-    info: 
+  - name: Shadow curst
+    info: "Khi\u1EBFn t\u1EA5t c\u1EA3 k\u1EBB \u0111\u1ECBch t\u1EA5n c\xF4ng 1
+      k\u1EBB \u0111\u01B0\u1EE3c ch\u1ECDn"
     dmg: 0
-  - name: 
-    info: 
+  - name: Pulse
+    info: "Mini stun k\u1EBB \u0111\u1ECBch, gi\u1EA3m 20% s\xE1t th\u01B0\u01A1ng
+      trong l\u01B0\u1EE3t ti\u1EBFp theo"
     dmg: 0
-  - name: 
-    info: 
+  - name: Son of the dark
+    info: "Kh\xF4ng th\u1EC3 target nh\u01B0ng nh\u1EADn th\xEAm 20% s\xE1t th\u01B0\u01A1ng
+      \u0111\u1EBFn t\u1EEB k\u1EF9 n\u0103ng"
     dmg: 0
-  - name: 
-    info: 
+  - name: Take my energy
+    info: "T\u1EA1o l\u1EDBp m\xE1u \u1EA3o h\u1EA5p th\u1EE5 t\u1ED1i \u0111a 300
+      s\xE1t th\u01B0\u01A1ng gi\u1EA3m d\u1EA7n theo th\u1EDDi gian"
     dmg: 0
-  - name: 
-    info: 
+  - name: Fearing me
+    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch khi\u1EBFp h\xE3i kh\xF4ng th\u1EC3
+      t\u1EA5n c\xF4ng b\u1EA3n th\xE2n"
     dmg: 0
-  - name: 
-    info: 
+  - name: Rise up
+    info: "G\xE2y th\xEAm 20% s\xE1t th\u01B0\u01A1ng l\xEAn k\u1EBB \u0111\xEDch
+      kh\u1EAFc h\u1EC7 "
     dmg: 0
-  - name: 
-    info: 
+  - name: Hand of god
+    info: "\u0110\xF2n \u0111\xE1nh ti\u1EBFp theo ch\u1EAFc ch\u1EAFn ch\xED m\u1EA1ng"
     dmg: 0
-  - name: 
-    info: 
+  - name: Only you
+    info: "Hi sinh 10% m\xE1u \u0111\u1EC3 g\xE2y 150% s\xE1t th\u01B0\u01A1ng l\xEAn
+      \u0111\u1ED1i ph\u01B0\u01A1ng"
     dmg: 0
-  - name: 
-    info: 
+  - name: Dark power
+    info: "Bi\u1EBFn l\u01B0\u1EE3ng m\xE1u \u0111\xE3 m\u1EA5t th\xE0nh l\u1EDBp
+      gi\xE1p \u1EA3o, gi\u1EA3m d\u1EA7n theo th\u1EDDi gian"
     dmg: 0
-  - name: 
-    info: 
+  - name: Sink in the dark
+    info: "L\xE0m k\u1EBB \u0111\u1ECBch m\u1EA5t t\u1EA7m nh\xECn, t\u1EA5n c\xF4ng
+      ng\u1EABu nhi\xEAn"
     dmg: 0
-  - name: 
-    info: 
+  - name: Haunting
+    info: "Gi\u1EA3m 20% s\xE1t th\u01B0\u01A1ng \u0111\u1ED3ng th\u1EDDi g\xE2y
+      15% s\xE1t th\u01B0\u01A1ng trong 3 turn"
     dmg: 0
-  - name: 
-    info: 
+  - name: Duel
+    info: "Khi\u1EBFn b\u1EA3n th\xE2n v\xE0 m\u1EE5c ti\xEAu kh\xF4ng th\u1EC3 t\u1EA5n
+      c\xF4ng trong 1 turn"
     dmg: 0
-  - name: 
-    info: 
+  - name: Follow me
+    info: "Khi\u1EBFn m\u1ED9t k\u1EBB \u0111\u1ECBch ch\u1ECF c\xF3 th\u1EC3 t\u1EA5n
+      c\xF4ng b\u1EA3n th\xE2n, gi\u1EA3m 30% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o"
     dmg: 0
-  - name: 
-    info: 
+  - name: Dust till dawn
+    info: "Delay s\xE1t th\u01B0\u01A1ng 1 turn"
     dmg: 0
-  - name: 
-    info: 
+  - name: Dark blade
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9 \u0111\u1ED9i h\xECnh
+      \u0111\u1ED1i ph\u01B0\u01A1ng"
     dmg: 0
-  - name: 
-    info: 
+  - name: Storm break
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9 \u0111\u1ED9i h\xECnh
+      t\u0103ng 20% sau khi t\xE1c \u0111\u1ED9ng l\xEAn m\u1ED7i k\u1EBB \u0111\u1ECBch"
     dmg: 0
-  - name: 
-    info: 
+  - name: Ninja gear
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xE0m ch\u1EADm 30%"
     dmg: 0
-  - name: 
-    info: 
+  - name: Into the dark
+    info: "Kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng \u0111\u1ED3ng th\u1EDDi kh\xF4ng
+      th\u1EC3 t\u1EA5n c\xF4ng, h\u1ED3i 50% m\xE1u \u0111\xE3 m\u1EA5t"
     dmg: 0
-  - name: 
-    info: 
+  - name: Promise me
+    info: "Hi sinh 30% m\xE1u hi\u1EC7n t\u1EA1i \u0111\u1EC3 h\u1ED3i 50% \u0111\xE3
+      m\u1EA5t c\u1EE7a \u0111\u1ED3ng minh"
     dmg: 0
-  - name: 
-    info: 
+  - name: Lick head
+    info: "Trong turn ti\u1EBFp theo n\u1EBFu d\xF9ng k\u1EF9 n\u0103ng s\u1EBD m\u1EA5t
+      20% m\xE1u t\u1ED1i \u0111a"
     dmg: 0
   natureSkill:
   - name: Runic Spikes
@@ -2878,35 +2906,42 @@ MonoBehaviour:
   - name: Nature Laser
     info: "Gi\u1EA3m h\u1ED3i m\xE1u 30%"
     dmg: 300
-  - name: 
-    info: 
+  - name: Nature Tornado
+    info: "\u0110\u01B0a k\u1EBB \u0111\u1ECBch l\xEAn tr\xEAn kh\xF4ng trong 3 gi\xE2y
+      (k\u1EBB \u0111\u1ECBch kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng) "
     dmg: 0
-  - name: 
-    info: 
+  - name: Triple Nature Tornado
+    info: "To\xE0n b\u1ED9 k\u1EBB th\xF9 b\u1ECB n\xE2ng l\xEAn v\xE0 kh\xF4ng t\u1EA5n
+      c\xF4ng \u0111\u01B0\u1EE3c trong 2 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Throw stones
+    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch ch\u1ECBu th\xEAm 30% s\xE1t th\u01B0\u01A1ng
+      h\u1EC7 l\u1EEDa trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Armor
+    info: "Gi\u1EA3m 50% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c ngu\u1ED3n s\xE1t
+      th\u01B0\u01A1ng h\u1EC7 l\u1EEDa"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Meteor
+    info: "G\xE2y cho\xE1ng 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Tree Binding
+    info: "Gi\u1EA3m 50% t\u1ED1c \u0111\u1ED9 \u0111\xE1nh trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Rain
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c m\u1ED7i 0.25 gi\xE2y
+      trong 4 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Spear
+    info: "Ch\u1ECBu th\xEAm 30% s\xE1t th\u01B0\u01A1ng t\u1EEB h\u1EC7 thi\xEAn
+      nhi\xEAn trong 3 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Wall
+    info: "\u0110\u1EE1 to\xE0n b\u1ED9 s\xE1t th\u01B0\u01A1ng trong 2 gi\xE2y"
     dmg: 0
-  - name: 
-    info: 
+  - name: Stone Prison
+    info: "Ho\xE1 \u0111\xE1 k\u1EBB \u0111\u1ECBch trong 3 gi\xE2y, khi\u1EBFn ch\xFAng
+      kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng"
     dmg: 0
   c1Skill:
   - name: Dragon Roar
@@ -2998,69 +3033,69 @@ MonoBehaviour:
     info: "H\u1ED3i m\xE1u cho 1 \u0111\u1ED3ng minh d\u01B0\u1EDBi 25% m\xE1u 25/turn"
     dmg: 0
   - name: rind
-    info: "h\u1EA5p th\u1EE5 70% s\xE1t th\u01B0\u01A1ng th\xE0nh h\u1ED3i m\xE1u"
+    info: "H\u1EA5p th\u1EE5 70% s\xE1t th\u01B0\u01A1ng th\xE0nh h\u1ED3i m\xE1u"
     dmg: 0
   - name: Forest's protector
-    info: "tr\u1EDF n\xEAn kh\u1ED5ng l\u1ED3 x2 m\xE1u"
+    info: "Tr\u1EDF n\xEAn kh\u1ED5ng l\u1ED3 x2 m\xE1u"
     dmg: 0
   - name: My friends
-    info: "t\u1EA1o l\u1EDBp khi\xEAng h\u1EA5p th\u1EE5 200 s\xE1t th\u01B0\u01A1ng"
+    info: "T\u1EA1o l\u1EDBp khi\xEAng h\u1EA5p th\u1EE5 200 s\xE1t th\u01B0\u01A1ng"
     dmg: 0
   - name: grown up
-    info: "ng\u1EABu nhi\xEAn h\u1ED3i ph\u1EE5c 0  - 100 heal"
+    info: "Ng\u1EABu nhi\xEAn h\u1ED3i ph\u1EE5c 0  - 100 heal"
     dmg: 0
   - name: nature eye
-    info: "tr\u1EDF n\xEAn v\xF4 h\xECnh, kh\xF4ng th\u1EC3 target nh\u01B0ng v\u1EABn
+    info: "Tr\u1EDF n\xEAn v\xF4 h\xECnh, kh\xF4ng th\u1EC3 target nh\u01B0ng v\u1EABn
       c\xF3 th\u1EC3 ch\u1ECBu s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c skill AOE"
     dmg: 0
   - name: rise up
-    info: "h\u1ED3i sinh \u0111\u1ED3ng minh v\u1EDBi 50% m\xE1u"
+    info: "H\u1ED3i sinh \u0111\u1ED3ng minh v\u1EDBi 50% m\xE1u"
     dmg: 0
   - name: bloom
-    info: "g\xE2y s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng"
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng di\u1EC7n r\u1ED9ng"
     dmg: 0
   - name: one again
-    info: "sau khi ch\u1EBFt \u0111\u1EC3 l\u1EA1i h\u1EA1t gi\u1ED1ng, h\u1ED3i
+    info: "Sau khi ch\u1EBFt \u0111\u1EC3 l\u1EA1i h\u1EA1t gi\u1ED1ng, h\u1ED3i
       sinh sau 5 turn"
     dmg: 0
   c4Skill:
   - name: into the void
-    info: "v\xF4 hi\u1EC7u h\xF3a k\u1EBB \u0111\u1ECBch trong 3 turn ()"
+    info: "V\xF4 hi\u1EC7u h\xF3a k\u1EBB \u0111\u1ECBch trong 3 turn ()"
     dmg: 0
   - name: conjuring
-    info: "g\u1EA5y s\xE1t th\u01B0\u01A1ng l\xEAn t\u01B0\u1EDBng \u0111\u1ECBch
-      3 turn 50/turn"
+    info: "G\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn t\u01B0\u1EDBng \u0111\u1ECBch 3
+      turn 50/turn"
     dmg: 0
   - name: wrong side
-    info: "khi\u1EBFn k\u1EBB \u0111\u1ECBch t\u1EA5n c\xF4ng 1 k\u1EBB \u0111\u1ECBch "
+    info: "Khi\u1EBFn k\u1EBB \u0111\u1ECBch t\u1EA5n c\xF4ng 1 k\u1EBB \u0111\u1ECBch "
     dmg: 0
   - name: spike head
-    info: "ph\u1EA3n 70% s\xE1t th\u01B0\u01A1ng ng\u01B0\u1EE3c l\u1EA1i k\u1EBB
+    info: "Ph\u1EA3n 70% s\xE1t th\u01B0\u01A1ng ng\u01B0\u1EE3c l\u1EA1i k\u1EBB
       \u0111\u1ECBch \u0111\u1ED3ng th\u1EDDi kh\xF4ng nh\u1EADn s\xE1t th\u01B0\u01A1ng"
     dmg: 0
   - name: power of evil
-    info: "t\u0103ng s\xE1t th\u01B0\u01A1ng k\u1EF9 n\u0103ng cho \u0111\u1ED3ng
+    info: "T\u0103ng s\xE1t th\u01B0\u01A1ng k\u1EF9 n\u0103ng cho \u0111\u1ED3ng
       minh"
     dmg: 0
   - name: whiter
-    info: "gi\u1EA3m 30% s\xE1t th\u01B0\u01A1ng \u0111\u1ED1i ph\u01B0\u01A1ng trong
+    info: "Gi\u1EA3m 30% s\xE1t th\u01B0\u01A1ng \u0111\u1ED1i ph\u01B0\u01A1ng trong
       2 turn"
     dmg: 0
   - name: Darkness's fusion
-    info: "s\u1EED d\u1EE5ng 10% m\xE1u hi\u1EC7n t\u1EA1i \u0111\u1EC3 khi\u1EBFn
+    info: "S\u1EED d\u1EE5ng 10% m\xE1u hi\u1EC7n t\u1EA1i \u0111\u1EC3 khi\u1EBFn
       \u0111\xF2n \u0111\xE1nh g\xE2y th\xEAm s\xE1t th\u01B0\u01A1ng"
     dmg: 0
   - name: Death's offering
-    info: "\u0111\xE1nh d\u1EA5u 1 k\u1EBB \u0111\u1ECBch, khi\u1EBFn k\u1EBB \u0111\u1ECBch
+    info: "\xD0\xE1nh d\u1EA5u 1 k\u1EBB \u0111\u1ECBch, khi\u1EBFn k\u1EBB \u0111\u1ECBch
       nh\u1EADn s\xE1t th\u01B0\u01A1ng m\u1ED7i round v\xE0 gi\u1EA3m kh\u1EA3 n\u0103ng
       ph\u1EE5c h\u1ED3i \u0111i 30%"
     dmg: 0
   - name: Shred
-    info: "\u0111\xF2n \u0111\xE1nh g\xE2y 5% m\xE1u t\u1ED1i \u0111a c\u1EE7a k\u1EBB
+    info: "\xD0\xF2n \u0111\xE1nh g\xE2y 5% m\xE1u t\u1ED1i \u0111a c\u1EE7a k\u1EBB
       \u0111\u1ECBch"
     dmg: 0
   - name: Evil spirit
-    info: "th\u1EA3 ra b\xF3ng ma g\xE2y s\xE1t th\u01B0\u01A1ng cho to\xE0n b\u1ED9
+    info: "Th\u1EA3 ra b\xF3ng ma g\xE2y s\xE1t th\u01B0\u01A1ng cho to\xE0n b\u1ED9
       k\u1EBB \u0111\u1ECBch "
     dmg: 0
   c5Skill:
@@ -3182,42 +3217,42 @@ MonoBehaviour:
     dmg: 0
   c8Skill:
   - name: god of streng
-    info: "t\u1EF1 c\u01B0\u1EDDng h\xF3a b\u1EA3n th\xE2n nh\u1EADn th\xEAm 30%
+    info: "T\u1EF1 c\u01B0\u1EDDng h\xF3a b\u1EA3n th\xE2n nh\u1EADn th\xEAm 30%
       s\xE1t th\u01B0\u01A1ng"
     dmg: 0
   - name: dare you
-    info: "khi\xEAu kh\xEDch 1 k\u1EBB \u0111\u1ECBch v\xE0 ch\u1EC9 nh\u1EADn 70%
+    info: "Khi\xEAu kh\xEDch 1 k\u1EBB \u0111\u1ECBch v\xE0 ch\u1EC9 nh\u1EADn 70%
       s\xE1t th\u01B0\u01A1ng t\u1EEB nh\u1EEFng k\u1EBB \u0111\u1ECBch kh\xE1c"
     dmg: 0
   - name: double attack
-    info: "th\xEAm 1 l\u1EA7n \u0111\xE1nh th\u01B0\u1EDDng v\u1EDBi 70% s\xE1t th\u01B0\u01A1ng"
+    info: "Th\xEAm 1 l\u1EA7n \u0111\xE1nh th\u01B0\u1EDDng v\u1EDBi 70% s\xE1t th\u01B0\u01A1ng"
     dmg: 0
   - name: incredible
-    info: "t\u0103ng 10 s\xE1t th\u01B0\u01A1ng sau m\u1ED7i l\u01B0\u1EE3t t\u1EA5n
+    info: "T\u0103ng 10 s\xE1t th\u01B0\u01A1ng sau m\u1ED7i l\u01B0\u1EE3t t\u1EA5n
       c\xF4ng"
     dmg: 0
   - name: man of steel
-    info: "gi\u1EA3m 40% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o \u0111\u1ED3ng
+    info: "Gi\u1EA3m 40% s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o \u0111\u1ED3ng
       th\u1EDDi g\xE2y ra 80% s\xE1t th\u01B0\u01A1ng so v\u1EDBi b\xECnh th\u01B0\u01A1ng"
     dmg: 0
   - name: Albeyo
-    info: "\u0111\u1EE1 h\u1ED9 s\xE1t th\u01B0\u01A1ng cho \u0111\u1ED3ng minh th\u1EA5p
+    info: "\xD0\u1EE1 h\u1ED9 s\xE1t th\u01B0\u01A1ng cho \u0111\u1ED3ng minh th\u1EA5p
       m\xE1u nh\u1EA5t"
     dmg: 0
   - name: anti mage
-    info: "gi\u1EA3m 100% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c k\u1EF9 n\u0103ng"
+    info: "Gi\u1EA3m 100% s\xE1t th\u01B0\u01A1ng t\u1EEB c\xE1c k\u1EF9 n\u0103ng"
     dmg: 0
   - name: hibernate
-    info: "kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng, nh\u01B0ng h\u1EA5p th\u1EE5 to\xE0n
+    info: "Kh\xF4ng th\u1EC3 t\u1EA5n c\xF4ng, nh\u01B0ng h\u1EA5p th\u1EE5 to\xE0n
       b\u1ED9 s\xE1t th\u01B0\u01A1ng nh\u1EADn v\xE0o chuy\u1EC3n th\xE0nh m\xE1u
       trong su\u1ED1t 3 turn"
     dmg: 0
   - name: silent
-    info: "c\xE2m l\u1EB7ng \u0111\u1ED1i ph\u01B0\u01A1ng trong 1 turn ti\u1EBFp
+    info: "C\xE2m l\u1EB7ng \u0111\u1ED1i ph\u01B0\u01A1ng trong 1 turn ti\u1EBFp
       theo"
     dmg: 0
   - name: warcry
-    info: "g\u1EA7m l\xEAn, cho to\xE0n b\u1ED9 \u0111\u1ED3ng minh 10% h\xFAt m\xE1u"
+    info: "G\u1EA7m l\xEAn, cho to\xE0n b\u1ED9 \u0111\u1ED3ng minh 10% h\xFAt m\xE1u"
     dmg: 0
   c9Skill:
   - name: Rock skin
@@ -4358,7 +4393,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -6182,7 +6217,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -16510,7 +16545,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
