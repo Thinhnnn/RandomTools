@@ -92,13 +92,15 @@ public class Manager : MonoBehaviour
         }
         
         finalCharacter = new FinalCharacter(Random(id));
+
+        //Debug.Log(finalCharacter.index);
         
-        Transforms[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
-        Transforms[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
-        Transforms[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
-        Transforms[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
-        Transforms[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
-        Transforms[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
+        Transforms[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
+        Transforms[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
+        Transforms[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
+        Transforms[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
+        Transforms[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
+        Transforms[finalCharacter.index].GetChild(7).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
         
         skill1.sprite = DataManager.instance.skill1[finalCharacter.s1 - 1];
         skill2.sprite = DataManager.instance.skill2[finalCharacter.s2 - 1];
@@ -119,12 +121,12 @@ public class Manager : MonoBehaviour
         
         Transforms[finalCharacter.index].gameObject.SetActive(true);
 
-        Character[finalCharacter.index].GetChild(0).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
-        Character[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
-        Character[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
-        Character[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
-        Character[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
-        Character[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
+        Character[finalCharacter.index].GetChild(1).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p1[finalCharacter.p1 - 1];
+        Character[finalCharacter.index].GetChild(2).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p2[finalCharacter.p2 - 1];
+        Character[finalCharacter.index].GetChild(3).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p3[finalCharacter.p3 - 1];
+        Character[finalCharacter.index].GetChild(4).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p4[finalCharacter.p4 - 1];
+        Character[finalCharacter.index].GetChild(5).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p5[finalCharacter.p5 - 1];
+        Character[finalCharacter.index].GetChild(6).GetComponent<Image>().sprite = DataManager.instance.Characters[finalCharacter.index].p6[finalCharacter.p6 - 1];
         Character[finalCharacter.index].gameObject.SetActive(true);
         
         heal.fillAmount = (finalCharacter.heal * 10 + 200)/ 1000f;
@@ -147,7 +149,7 @@ public class Manager : MonoBehaviour
          * crt:     10 => 10 + 0.5 * 80     => 50
          * crtDmg   50 => 50 + 2.5 * 80     => 250
          */
-        //TakeScreenShot.TakeScreenshot_Static(1920,1080, finalCharacter.id);
+        TakeScreenShot.TakeScreenshot_Static(1920,1080, finalCharacter.id);
     }
     private string type;
     private string[] he = new[] {"F", "W", "N", "L", "D"};
@@ -235,7 +237,7 @@ public class Manager : MonoBehaviour
             id = -1;
         }
         GetCharacter(id);
-        //TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
+        TakeScreenShot.TakeScreenshot_Static(1920, 1080, finalCharacter.id);
         count--;
         ammountLoop.text = count.ToString();
         if (count <= 0)
