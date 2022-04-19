@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TreasureHunter.unity
-    guid: 5feabf29c111adc4eaa51ab89716f13b
+    path: Assets/Scenes/Character_15_4.unity
+    guid: 311ef56f15ebad84fb4f94ffcfecee95
   m_configObjects: {}
